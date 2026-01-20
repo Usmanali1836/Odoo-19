@@ -1,0 +1,10 @@
+<odoo>
+<!--    <template id="afs_report_footer" inherit_id="web.external_layout">-->
+<!--        <xpath expr="//div[contains(@class,'footer')]" position="replace">-->
+<!--            <div class="footer" style="text-align:center; font-size:12px;">-->
+<!--                Page-->
+<!--                <span class="pageNumber"></span>-->
+<!--            </div>-->
+<!--        </xpath>-->
+<!--    </template>-->
+</odoo>

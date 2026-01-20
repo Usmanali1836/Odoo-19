@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="afs_view_form" model="ir.ui.view">
+            <field name="name">afs_view_form</field>
+            <field name="model">afs.report</field>
+            <field name="arch" type="xml">
+                <form string="afs_form">
+                    <header>
+                        <button string="Print AFS Report" type="object" name="print_afs_report" class="btn-primary"/>
+                    </header>
+                    <sheet>
+                        <group>
+
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="afs_action_id" model="ir.actions.act_window">
+            <field name="name">afs.repor</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">afs.report</field>
+            <field name="view_mode">form</field>
+        </record>
+
+        <menuitem id="menu_afs_report_root" action="afs_action_id" name="AFS Reports" sequence="10"/>
+    </data>
+</odoo>

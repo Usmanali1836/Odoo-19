@@ -1,0 +1,40 @@
+/* =========================
+   TIMES NEW ROMAN FONT
+   Module: afs_financial_statement_report
+   ========================= */
+
+/* Regular */
+@font-face {
+    font-family: 'TimesNewRoman';
+    src: url('/afs_financial_statement_report/static/src/fonts/TimesNewRoman-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'TimesNewRoman';
+    src: url('/afs_financial_statement_report/static/src/fonts/TimesNewRoman-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Italic */
+@font-face {
+    font-family: 'TimesNewRoman';
+    src: url('/afs_financial_statement_report/static/src/fonts/TimesNewRoman-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Bold + Italic */
+@font-face {
+    font-family: 'TimesNewRoman';
+    src: url('/afs_financial_statement_report/static/src/fonts/TimesNewRoman-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* =========================
+   APPLY FONT + SIZE (10px)
+   ====================

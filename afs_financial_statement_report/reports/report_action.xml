@@ -1,0 +1,26 @@
+<odoo>
+    <record id="paperformat_afs_report" model="report.paperformat">
+        <field name="name">AFS Financial Statement A4</field>
+        <field name="format">A4</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">25</field>
+        <field name="header_spacing">5</field>
+        <field name="margin_bottom">20</field>
+        <field name="margin_left">15</field>
+        <field name="margin_right">15</field>
+        <field name="header_line" eval="False"/>
+        <field name="dpi">96</field>
+    </record>
+
+    <!-- Report Action -->
+    <record id="action_afs_report_header" model="ir.actions.report">
+        <field name="name">AFS Report</field>
+        <field name="model">afs.report</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">afs_financial_statement_report.afs_report_header</field>
+        <field name="report_file">afs_financial_statement_report.afs_report_header</field>
+        <field name="binding_model_id" ref="afs_financial_statement_report.model_afs_report"/>
+        <field name="paperformat_id" ref="paperformat_afs_report"/>
+        <field name="binding_type">report</field>
+    </record>
+</odoo>

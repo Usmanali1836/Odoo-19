@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'TimesNewRoman';
+    src: url('/afs_financial_statement_report/static/src/fonts/TimesNewRoman-Regular.ttf') format('truetype');
+}
+
+.report_tnr {
+    font-family: 'TimesNewRoman', serif;
+    font-size: 10px;
+
+}
+
+.afs_tnr_report {
+    font-family: serif;
+    font-size: 10px;
+}
+
+.pageNumber:before {
+    content: counter(page);
+}
