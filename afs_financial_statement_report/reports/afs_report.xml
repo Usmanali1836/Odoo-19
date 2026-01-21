@@ -7,7 +7,7 @@
                 <style>
                     .header {
                     position: relative;
-                    height: 70px;
+                    height: 50px;
                     text-align: left; /* does not affect absolute positioning */
                     }
 
@@ -27,18 +27,19 @@
 
                 <script>
                     function subst() {
-                        var vars = {};
-                        var x = document.location.search.substring(1).split('&amp;');
-                        for (var i in x) { var z = x[i].split('=', 2); vars[z[0]] = unescape(z[1]); }
-                        if (vars['page'] == "1") {
-                            var el = document.getElementById("company_header_info");
-                            if(el) el.style.display = 'none';
-                        }
+                    var vars = {};
+                    var x = document.location.search.substring(1).split('&amp;');
+                    for (var i in x) { var z = x[i].split('=', 2); vars[z[0]] = unescape(z[1]); }
+                    if (vars['page'] == "1") {
+                    var el = document.getElementById("company_header_info");
+                    if(el) el.style.display = 'none';
+                    }
                     }
                     window.onload = subst;
                 </script>
 
-                <div id="company_header_info" style="position: absolute; top: 35px; left: 15px; font-family: 'Times New Roman', Times, serif;">
+                <div id="company_header_info"
+                     style="position: absolute; top: 35px; left: 15px; font-family: 'Times New Roman', Times, serif; color: #555;">
                     <div style="font-size:18px; font-weight:bold; white-space:nowrap;">
                         <span style="text-decoration:underline; font-family: inherit;">
                             <t t-esc="docs.name"/>
@@ -109,7 +110,7 @@
 
                 <div style="padding-left: 20px;  color:#555;">
 
-                    <div style="font-size:18px; white-space:nowrap; margin-top: 35px; font-family: 'Times New Roman', Times, serif;">
+                    <div style="font-size:18px; white-space:nowrap; font-family: 'Times New Roman', Times, serif;">
                         <span style="text-decoration:underline; font-family: inherit;">
                             <strong>Table of Contents</strong>
                         </span>
@@ -171,7 +172,7 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; margin-top:20px; color:#555;">
+                <div style="margin-left:20px; margin-top:0px; color:#555;">
 
                     <div style="font-size:18px; white-space:nowrap; margin-bottom:0;">
                         <span style="text-decoration:underline; font-family: inherit;">
@@ -264,7 +265,7 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; margin-top:20px; color:#555;">
+                <div style="margin-left:20px; margin-top:0px; color:#555;">
 
                     <div style="font-size:18px; white-space:nowrap; margin-bottom:0;">
                         <span style="text-decoration:underline; font-family: inherit;">
@@ -428,9 +429,7 @@
 
                 </div>
 
-                <div style="page-break-before: always;"></div>
-
-                <div style="margin-left:20px; margin-top:20px; color:#555;">
+                <div style="margin-left:20px; margin-top:0px; color:#555;">
 
                     <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
                         <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
@@ -466,11 +465,8 @@
                         representative of the Entity.
                     </p>
                 </div>
-                <br/>
-                <br/>
-                <br/>
 
-                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:left;">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.8; text-align:left;">
 
                     <div style="margin-bottom:100px;">
                         <div style="border-top: 2px dotted #000; width: 40%; margin-bottom: 10px;"></div>
@@ -484,12 +480,9 @@
                         Date:
                         Date
                     </div>
-
                 </div>
 
-                <div style="page-break-before: always;"></div>
-
-                <div style="margin-left:20px; margin-top:20px; color:#555;">
+                <div style="margin-left:20px; margin-top:0px; color:#555;">
 
                     <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
                         <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
@@ -616,58 +609,57 @@
                         </span>
                     </div>
                 </div>
-                <div style="margin-left:50px; margin-right:50px; margin-top:30px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:30px; font-size:18px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong>Auditor’s Responsibilities for the Audit of the Financial Statements (continued)
                         </strong>
-                        <br/>
-                        • Our conclusions are based on the audit evidence obtained up to the date of our auditor’s
-                        report.
-                        However, future events or conditions may cause the Entity to cease to continue as a going
-                        concern.
                     </p>
+                    <ul>
+                        <li>
+                            Our conclusions are based on the audit evidence obtained up to the date of our auditor’s
+                            report.
+                            However, future events or conditions may cause the Entity to cease to continue as a going
+                            concern.
+                        </li>
+                    </ul>
                     <p>
                         We communicate with management and those charged with governance regarding, among other matters,
                         the planned scope and timing of the audit and significant audit findings, including any
                         significant deficiencies in internal control that we identify during our audit.
                     </p>
                     <p>
-                        <strong>Report on other legal and regulatory requirements.
-                        </strong>
-                        <br/>
-                        As required by the provisions of Law, as amended from time to time we further confirm that,
-                        <br/>
-                        • We have obtained all the information and explanations which we consider necessary for our
-                        audit,
-                        <br/>
-                        • The financial statements have been prepared and comply in all material respects with the
-                        applicable provisions of
-                        Law as amended from time to time, and the Memorandum and Articles of Association of the
-                        Entity,
-                        <br/>
-                        • Proper books of accounts have been maintained by the Entity,
-                        <br/>
-                        • The contents of the Report of Directors which relates to the financial statements are in
-                        agreement with the Entity’s books of account, and
-                        <br/>
-                        • Based on the information that has been made available to us nothing has come to our
-                        attention which causes us to believe that the Entity has contravened, during the financial
-                        year ended
-                        EndDate any of the applicable provisions of
-                        Law as amended from time to time or of its Memorandum and Articles of Association which
-                        would materially affect its activities or its financial position as at
-                        EndDate.
+                        <strong>Report on other legal and regulatory requirements.</strong>
                     </p>
+                    <p>As required by the provisions of Law, as amended from time to time we further confirm that,</p>
+                    <ul>
+                        <li>We have obtained all the information and explanations which we consider necessary for our
+                            audit,
+                        </li>
+                        <li>The financial statements have been prepared and comply in all material respects with the
+                            applicable provisions of Law as amended from time to time, and the Memorandum and Articles
+                            of Association of the Entity,
+                        </li>
+                        <li>Proper books of accounts have been maintained by the Entity,</li>
+                        <li>The contents of the Report of Directors which relates to the financial statements are in
+                            agreement with the Entity’s books of account, and
+                        </li>
+                        <li>Based on the information that has been made available to us nothing has come to our
+                            attention which causes us to believe that the Entity has contravened, during the financial
+                            year ended EndDate any of the applicable provisions of Law as amended from time to time or
+                            of its Memorandum and Articles of Association which would materially affect its activities
+                            or its financial position as at EndDate.
+                        </li>
+                    </ul>
                 </div>
 
                 <br/>
                 <br/>
                 <br/>
 
-                <div style="margin-left:50px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:left;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:left;">
 
                     <div style="margin-bottom:100px;">
-                        <div style="border-top: 2px dotted #000; width: 40%; margin-bottom: 10px;"></div>
+                        <div style="border-top: 2px dotted #000; width: 70%; margin-bottom: 10px;"></div>
 
                         <strong>AUDITOR</strong>
                         <br/>
@@ -682,7 +674,7 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; margin-top:20px; color:#555;">
+                <div style="margin-left:20px; margin-top:0px; color:#555;">
                     <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
                         <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
                             <strong>Statement of the Financial Position</strong>
@@ -694,7 +686,7 @@
                         </span>
                     </div>
                 </div>
-                <table style="width:90%; font-size:18px; margin-left:50px; margin-right:50px; margin-top:25px; border: none; border-collapse: collapse;">
+                <table style="width:90%; font-size:18px; margin-left:20px; margin-right:50px; margin-top:25px; border: none; border-collapse: collapse;">
                     <thead>
                         <tr>
                             <th style="text-align:left; padding:8px 0; width:40%;"></th>
@@ -1458,7 +1450,7 @@
                     </tbody>
                 </table>
 
-                <div style="margin-left:50px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
 
                     <p>
                         <strong>
@@ -1483,45 +1475,16 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; margin-top:20px;color:#555;">
-                    <div style="font-size:18px; font-weight:bold;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:5px;">
-                        <t t-esc="docs.name"/>
-                    </div>
-                    <br/>
-                    <div style="font-size:18px; font-weight:bold;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:20px;">
-                        <t t-esc="docs.free_zone"/>
-                        United Arab Emirates
-                    </div>
-                    <br/>
-                    <div style="font-size:18px;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:5px;">
+                <div style="margin-left:20px; color:#555;">
+
+                    <div style="font-size:18px;  border-bottom:1px solid #000;   display:inline-block;   padding-bottom:5px;  white-space:nowrap; margin-bottom:5px;">
                         <strong>Statement of Profit and Loss and Other Comprehensive Income</strong>
                     </div>
-                    <br/>
-                    <div style="font-size:18px;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:20px;">
+                    <div style="font-size:18px;  border-bottom:1px solid #000;  display:inline-block;    padding-bottom:5px;     white-space:nowrap;  margin-bottom:20px;">
                         <strong>For the Year EndDate (in AED)</strong>
                     </div>
                 </div>
-                <table style="width:90%; border-collapse:collapse; font-size:18px; margin-left:50px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
+                <table style="width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
                         <tr>
                             <th style="padding:10px 0; text-align:left; width:40%;"></th>
@@ -1750,7 +1713,7 @@
                     </tbody>
                 </table>
 
-                <div style="margin-left:50px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong>The accompanying notes 1 to 16 form an integral part of these financial statements.
                         </strong>
