@@ -25,7 +25,8 @@
                     }
                 </style>
 
-                <div style="text-decoration:underline; font-family: 'Times New Roman', Times, serif; font-size: 18px !important;" class="license-number-container o_first_page_only"
+                <div style="text-decoration:underline; font-family: 'Times New Roman', Times, serif; font-size: 18px !important;"
+                     class="license-number-container o_first_page_only"
                      t-if="docs.company_license_number">
                     <strong>License No:</strong>
                     <span t-esc="docs.company_license_number"/>
@@ -36,7 +37,8 @@
                 <style>
                     /* Apply Times New Roman to entire report */
                     /* Apply Times New Roman to entire report */
-                    body, .page, .page *, header, footer, .o_report_header *, .o_report_footer *, div, span, p, table, tr, td, th {
+                    body, .page, .page *, header, footer, .o_report_header *, .o_report_footer *, div, span, p, table,
+                    tr, td, th {
                     font-family: "Times New Roman", Times, serif !important;
                     font-size: 18px !important;
                     line-height: 1.6;
@@ -60,7 +62,9 @@
                         <br/>
                         <div style="font-weight: bold; font-size: 15px; margin: 6px 0; font-family: inherit;">
                             <span style="text-decoration:underline; padding-bottom:5px; font-family: inherit;">
-                                <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>, </t>United Arab Emirates
+                                <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>,
+                                </t>
+                                United Arab Emirates
 
                             </span>
                         </div>
@@ -82,7 +86,9 @@
                     </div>
                     <div style="font-size:16px; font-weight:bold; white-space:nowrap; margin-top: 0;">
                         <span style="text-decoration:underline; font-family: inherit;">
-                            <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>, </t>United Arab Emirates
+                            <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>,
+                            </t>
+                            United Arab Emirates
                         </span>
                     </div>
                     <div style="font-size:14px; white-space:nowrap; margin-top: 35px; font-family: 'Times New Roman', Times, serif;">
@@ -155,7 +161,9 @@
                     </div>
                     <div style="font-size:16px; font-weight:bold; white-space:nowrap; margin-bottom:35px;">
                         <span style="text-decoration:underline; font-family: inherit;">
-                            <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>, </t>United Arab Emirates
+                            <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>,
+                            </t>
+                            United Arab Emirates
 
                         </span>
                     </div>
@@ -188,7 +196,10 @@
                                         <t t-set="nationality_field" t-value="'nationality_' + str(i)"/>
                                         <t t-if="docs[shareholder_field]">
                                             <div>
-                                                <t t-esc="docs[shareholder_field]"/> – <t t-esc="docs[nationality_field]"/> National
+                                                <t t-esc="docs[shareholder_field]"/>
+                                                –
+                                                <t t-esc="docs[nationality_field]"/>
+                                                National
                                             </div>
                                         </t>
                                     </t>
@@ -247,15 +258,17 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; margin-top:20px; color:#555;">
+                <div style="margin-left:30px; margin-top:20px; color:#555;">
                     <div style="font-size:16px; font-weight:bold; white-space:nowrap; margin-bottom:0;">
                         <span style="text-decoration:underline; font-family: inherit;">
                             <t t-esc="docs.name"/>
                         </span>
                     </div>
-                    <div style="font-size:16px; font-weight:bold; white-space:nowrap; margin-bottom:20px;">
+                    <div style="font-size:16px; font-weight:bold; white-space:nowrap; margin-bottom:35px;">
                         <span style="text-decoration:underline; font-family: inherit;">
-                            <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>, </t>United Arab Emirates
+                            <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>,
+                            </t>
+                            United Arab Emirates
 
                         </span>
                     </div>
@@ -271,7 +284,7 @@
                     </div>
                 </div>
                 <br/>
-                <div style="margin-left:50px; margin-right:50px; font-size:14px; line-height:1.5;">
+                <div style="margin-left:30px; margin-right:50px; font-size:14px; line-height:1.5;">
                     <p>The Directors have pleasure in presenting the report and the audited financial statements for
                         the year ended
                         <br/>
@@ -306,74 +319,62 @@
 
                 </div>
 
-                <table style="width:90%; font-size:16px; margin:22px auto; border-collapse: collapse;">
+                <table style="width:90%; font-size:16px; margin:22px 50px 22px 30px; border-collapse: collapse; border: 1px solid #000;">
+                    <colgroup>
+                        <col style="width: 50%;"/>
+                        <col style="width: 20%;"/>
+                        <col style="width: 20%;"/>
+                    </colgroup>
                     <thead>
                         <tr>
-                            <td></td>
-                            <td colspan="3" style="text-align:center; font-weight:bold;">
+                            <td style="border: 1px solid #000;"></td>
+                            <td colspan="2" style="border: 1px solid #000; text-align:center; font-weight:bold;">
                                 In
                                 <t t-esc="company.currency_id.name"/>
                             </td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td style="text-align:center; font-weight:bold; text-decoration:underline;">
+                            <td style="border: 1px solid #000;"></td>
+                            <td style="border: 1px solid #000; text-align:center; font-weight:bold;">
                                 <t t-esc="year_curr"/>
                             </td>
-                            <td style="text-align:center;text-decoration:underline;">
+                            <td style="border: 1px solid #000; text-align:center;">
                                 <t t-esc="year_prev"/>
                             </td>
                         </tr>
                     </thead>
-
                     <tbody>
-                        <!-- Revenue -->
                         <tr>
-                            <td style="padding-left:30px;">Revenue</td>
-                            <td style="text-align:right;">
+                            <td style="border: 1px solid #000; padding: 5px 5px 5px 10px;">Revenue</td>
+                            <td style="border: 1px solid #000; text-align:right; padding: 5px;">
+                                <span t-esc="'{:,}'.format(int(total_revenue_curr)) if total_revenue_curr else ''"/>
                             </td>
-                            <td style="text-align:right;">
+                            <td style="border: 1px solid #000; text-align:right; padding: 5px;">
+                                <span t-esc="'{:,}'.format(int(total_revenue_prev)) if total_revenue_prev else ''"/>
                             </td>
-                            <td>-</td>
                         </tr>
-                        <t>
-                            <tr>
-                                <td style="padding-left:60px;">
-                                </td>
-                                <td style="text-align:right;">
-                                </td>
-                                <td style="text-align:right;">
-                                </td>
-                                <td/>
-                            </tr>
-                        </t>
-
-                        <!-- Gross Profit -->
                         <tr>
-                            <td style="padding-left:30px;">Gross profit margin</td>
-                            <td style="text-align:right;">
+                            <td style="border: 1px solid #000; padding: 5px 5px 5px 10px;">Gross profit margin</td>
+                            <td style="border: 1px solid #000; text-align:right; padding: 5px;">
+                                <span t-esc="'{:,}'.format(int(gross_profit_curr)) if gross_profit_curr else ''"/>
                             </td>
-                            <td style="text-align:right;">
+                            <td style="border: 1px solid #000; text-align:right; padding: 5px;">
+                                <span t-esc="'{:,}'.format(int(gross_profit_prev)) if gross_profit_prev else ''"/>
                             </td>
-                            <td/>
                         </tr>
-
-                        <t>
-                            <tr>
-                                <td style="padding-left:30px;">
-                                    Net profit margin
-                                </td>
-                                <td style="text-align:right;">
-                                </td>
-                                <td style="text-align:right;">
-                                </td>
-                                <td/>
-                            </tr>
-                        </t>
+                        <tr>
+                            <td style="border: 1px solid #000; padding: 5px 5px 5px 10px;">Net profit margin</td>
+                            <td style="border: 1px solid #000; text-align:right; padding: 5px;">
+                                <span t-esc="'{:,}'.format(int(net_profit_curr)) if net_profit_curr else ''"/>
+                            </td>
+                            <td style="border: 1px solid #000; text-align:right; padding: 5px;">
+                                <span t-esc="'{:,}'.format(int(net_profit_prev)) if net_profit_prev else ''"/>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
 
-                <div style="margin-left:50px; margin-right:50px; margin-top:15px; font-size:16px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:30px; margin-right:50px; margin-top:15px; font-size:16px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong style="text-decoration:underline;">The future outlook:</strong>
                         <br/>
@@ -435,15 +436,17 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; margin-top:20px; color:#555;">
+                <div style="margin-left:30px; margin-top:20px; color:#555;">
                     <div style="font-size:16px; font-weight:bold; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
                         <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
                             <t t-esc="docs.name"/>
                         </span>
                     </div>
-                    <div style="font-size:16px; font-weight:bold; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                    <div style="font-size:16px; font-weight:bold; padding-bottom:0; white-space:nowrap; margin-bottom:35px;">
                         <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>, </t>United Arab Emirates
+                            <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>,
+                            </t>
+                            United Arab Emirates
 
                         </span>
                     </div>
@@ -458,7 +461,7 @@
                         </span>
                     </div>
                 </div>
-                <div style="margin-left:50px; margin-right:50px; margin-top:25px; font-size:16px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:30px; margin-right:50px; margin-top:25px; font-size:16px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong style="text-decoration:underline;">Statement of director’s responsibilities:</strong>
                         <br/>
@@ -504,13 +507,13 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; margin-top:20px; color:#555;">
+                <div style="margin-left:30px; margin-top:20px; color:#555;">
                     <div style="font-size:16px; font-weight:bold; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
                         <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
                             <t t-esc="docs.name"/>
                         </span>
                     </div>
-                    <div style="font-size:16px; font-weight:bold; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                    <div style="font-size:16px; font-weight:bold; padding-bottom:0; white-space:nowrap; margin-bottom:35px;">
                         <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
                             <t t-esc="docs.free_zone"/>
                             United Arab Emirates
@@ -527,7 +530,7 @@
                         </span>
                     </div>
                 </div>
-                <div style="margin-left:50px; margin-right:50px; margin-top:30px; font-size:16px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:30px; margin-right:50px; margin-top:30px; font-size:16px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong style="text-decoration:underline;">Opinion:</strong>
                         <br/>
@@ -592,33 +595,38 @@
                         considered material if, individually or in the aggregate, they could reasonably be expected to
                         influence the economic decisions of users taken on the basis of these financial statements.
                     </p>
-                    <p>
+                    <p style="margin-bottom: 5px;">
                         As part of an audit in accordance with ISA, we exercise professional judgment and maintain
                         professional skepticism throughout the audit. We also:
-                        <br/>
-                        • Identify and assess the risks of material misstatement of the financial statements, whether
-                        due to fraud or error, design and perform audit procedures responsive to those risks, and obtain
-                        audit evidence that is sufficient and appropriate to provide a basis for our opinion. The risk
-                        of not detecting a material misstatement resulting from fraud is higher than for one resulting
-                        from error, as fraud may involve collusion, forgery, intentional omissions, misrepresentations,
-                        or the override of internal control.
-                        <br/>
-                        • Obtain an understanding of internal control relevant to the audit in order to design audit
-                        procedures that are appropriate in the circumstances, but not for the purpose of expressing
-                        an
-                        opinion on the effectiveness of the Entity’s internal control.
-                        <br/>
-                        • Evaluate the appropriateness of accounting policies used and the reasonableness of
-                        accounting
-                        estimates and related disclosures made by management.
-                        <br/>
-                        • Conclude on the appropriateness of management’s use of the going concern basis of accounting
-                        and, based on the audit evidence obtained, whether a material uncertainty exists related to
-                        events or conditions that may cast significant doubt on the Entity’s ability to continue as a
-                        going concern. If we conclude that a material uncertainty exists, we are required to draw
-                        attention in our auditor’s report to the related disclosures in the financial statements or, if
-                        such disclosures are inadequate, to modify our opinion.
                     </p>
+
+                    <ul style="list-style-type: disc; padding-left: 25px; text-align: justify;">
+                        <li style="margin-bottom: 10px;">
+                            Identify and assess the risks of material misstatement of the financial statements, whether
+                            due to fraud or error, design and perform audit procedures responsive to those risks, and
+                            obtain audit evidence that is sufficient and appropriate to provide a basis for our opinion.
+                            The risk of not detecting a material misstatement resulting from fraud is higher than for
+                            one resulting from error, as fraud may involve collusion, forgery, intentional omissions,
+                            misrepresentations, or the override of internal control.
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            Obtain an understanding of internal control relevant to the audit in order to design audit
+                            procedures that are appropriate in the circumstances, but not for the purpose of expressing
+                            an opinion on the effectiveness of the Entity’s internal control.
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            Evaluate the appropriateness of accounting policies used and the reasonableness of
+                            accounting estimates and related disclosures made by management.
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            Conclude on the appropriateness of management’s use of the going concern basis of accounting
+                            and, based on the audit evidence obtained, whether a material uncertainty exists related to
+                            events or conditions that may cast significant doubt on the Entity’s ability to continue as
+                            a going concern. If we conclude that a material uncertainty exists, we are required to draw
+                            attention in our auditor’s report to the related disclosures in the financial statements or,
+                            if such disclosures are inadequate, to modify our opinion.
+                        </li>
+                    </ul>
                 </div>
 
                 <div style="page-break-before: always;"></div>
@@ -3708,25 +3716,26 @@
 
             </main>
             <div class="footer">
-                <div id="custom_footer_content" style="border-top: 1px solid #000; margin-top: 10px; padding-top: 5px; text-align: center; font-family: 'Times New Roman', serif; font-size: 14px;">
+                <div id="custom_footer_content"
+                     style="border-top: 1px solid #000; margin-top: 10px; padding-top: 5px; text-align: center; font-family: 'Times New Roman', serif; font-size: 14px;">
                 </div>
                 <script>
                     (function() {
-                        var vars = {};
-                        var x = document.location.search.substring(1).split('&amp;');
-                        for (var i in x) {
-                            var z = x[i].split('=', 2);
-                            vars[z[0]] = unescape(z[1]);
-                        }
-                        var page = parseInt(vars['page']);
-                        var footer = document.getElementById('custom_footer_content');
-                        if (footer) {
-                            if (page &gt;= 3) {
-                                footer.innerHTML = 'Page ' + (page - 2);
-                            } else {
-                                footer.style.display = 'none';
-                            }
-                        }
+                    var vars = {};
+                    var x = document.location.search.substring(1).split('&amp;');
+                    for (var i in x) {
+                    var z = x[i].split('=', 2);
+                    vars[z[0]] = unescape(z[1]);
+                    }
+                    var page = parseInt(vars['page']);
+                    var footer = document.getElementById('custom_footer_content');
+                    if (footer) {
+                    if (page &gt;= 3) {
+                    footer.innerHTML = 'Page ' + (page - 2);
+                    } else {
+                    footer.style.display = 'none';
+                    }
+                    }
                     })();
                 </script>
             </div>
