@@ -686,7 +686,7 @@
                         </span>
                     </div>
                 </div>
-                <table style="width:90%; font-size:18px; margin-left:20px; margin-right:50px; margin-top:25px; border: none; border-collapse: collapse;">
+                <table style="width:90%; font-size:18px; margin-left:20px; margin-right:50px; margin-top:25px; border: none; border-collapse: collapse; border: 1px solid white;">
                     <thead>
                         <tr>
                             <th style="text-align:left; padding:8px 0; width:40%;"></th>
@@ -1484,7 +1484,7 @@
                         <strong>For the Year EndDate (in AED)</strong>
                     </div>
                 </div>
-                <table style="width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
+                <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
                         <tr>
                             <th style="padding:10px 0; text-align:left; width:40%;"></th>
@@ -1734,26 +1734,7 @@
                 </div>
 
                 <div style="page-break-before: always;"></div>
-                <div style="margin-left:50px; margin-top:20px;color:#555;">
-                    <div style="font-size:18px; font-weight:bold;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:5px;">
-                        <t t-esc="docs.name"/>
-                    </div>
-                    <br/>
-                    <div style="font-size:18px; font-weight:bold;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:20px;">
-                        <t t-esc="docs.free_zone"/>
-                        United Arab Emirates
-                    </div>
-                    <br/>
+                <div style="margin-left:20px; margin-top:0px;color:#555;">
                     <div style="font-size:18px;
                 border-bottom:1px solid #000;
                 display:inline-block;
@@ -1773,7 +1754,7 @@
                     </div>
                 </div>
 
-                <table style="width:90%; border-collapse:collapse; font-size:18px; margin-left:50px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
+                <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
                         <tr>
                             <th style="padding:10px 0; text-align:left; width:35%;"></th>
@@ -1796,7 +1777,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td style="padding:12px 0; font-weight:bold; padding-left:30px;">Balance as at 31 December
+                            <td style=" font-weight:bold; padding-left:5px;">Balance as at 31 December
                                 2022
                             </td>
                             <td style="text-align:right;"></td>
@@ -1804,20 +1785,20 @@
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:10px 0; padding-left:30px;">Total comprehensive loss for the year</td>
+                            <td style=" padding-left:5px;">Total comprehensive loss for the year</td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style=";padding:10px 0; padding-left:30px;">Net movements in owner's current account
+                            <td style=" padding-left:5px;">Net movements in owner's current account
                             </td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;border-bottom:2px solid #000; display:inline-block"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:12px 0; font-weight:bold; padding-left:30px;">
+                            <td style="font-weight:bold; padding-left:5px;">
                                 Balance as at 31 December 2023
                             </td>
                             <td style="text-align:right;"></td>
@@ -1825,20 +1806,20 @@
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:10px 0; padding-left:30px;">Total comprehensive loss for the year</td>
+                            <td style=" padding-left:5px;">Total comprehensive loss for the year</td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style=";padding:10px 0; padding-left:30px;">Net movements in owner's current account
+                            <td style=" padding-left:5px;">Net movements in owner's current account
                             </td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;border-bottom:2px solid #000; display:inline-block"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:12px 0; font-weight:bold; padding-left:30px;">
+                            <td style=" font-weight:bold; padding-left:5px;">
                                 Balance as at 31 December 2024
                             </td>
                             <td style="text-align:right;"></td>
@@ -1848,7 +1829,7 @@
                     </tbody>
                 </table>
 
-                <div style="margin-left:50px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
 
                     <p>
                         <strong>The accompanying notes 1 to 16 form an integral part of these financial statements.
@@ -1871,26 +1852,7 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; margin-top:20px;color:#555;">
-                    <div style="font-size:18px; font-weight:bold;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:5px;">
-                        <t t-esc="docs.name"/>
-                    </div>
-                    <br/>
-                    <div style="font-size:18px; font-weight:bold;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:20px;">
-                        <t t-esc="docs.free_zone"/>
-                        United Arab Emirates
-                    </div>
-                    <br/>
+                <div style="margin-left:20px; margin-top:0px;color:#555;">
                     <div style="font-size:18px;
                 border-bottom:1px solid #000;
                 display:inline-block;
@@ -1910,7 +1872,7 @@
                     </div>
                 </div>
 
-                <table style="width:90%; border-collapse:collapse; font-size:18px; margin-left:50px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
+                <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
                         <tr>
                             <th style="padding:10px 0; text-align:left; width:50%;"></th>
@@ -1928,89 +1890,89 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td style="padding:12px 0; font-weight:bold; padding-left:30px;">Cash flows from operating
+                            <td style="padding:2px 0; font-weight:bold; padding-left:5px;">Cash flows from operating
                                 activities
                             </td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td style="padding:8px 0; padding-left:30px;">Net (loss) / profit for the year / period</td>
+                            <td style="padding:2px 0; padding-left:5px;">Net (loss) / profit for the year / period</td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:10px 0; font-weight:bold;padding-left:30px;">
+                            <td style="padding:2px 0; font-weight:bold;padding-left:5px;">
                                 Operating cashflow before changes in working capital
                             </td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:12px 0; font-weight:bold; padding-left:30px;">Changes in working
+                            <td style="padding:2px 0; font-weight:bold; padding-left:5px;">Changes in working
                                 capital
                             </td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td style="padding:8px 0; padding-left:30px;">(Increase) / decrease in current assets</td>
+                            <td style="padding:2px 0; padding-left:5px;">(Increase) / decrease in current assets</td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:8px 0; padding-left:30px;">Increase / (decrease) in current liabilities
+                            <td style="padding:2px 0; padding-left:5px;">Increase / (decrease) in current liabilities
                             </td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:10px 0; font-weight:bold;padding-left:30px;">
+                            <td style="padding:2px 0; font-weight:bold;padding-left:5px;">
                                 Net cash generated from operations
                             </td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:12px 0; font-weight:bold; padding-left:30px;">Cash flows from financing
+                            <td style="padding:2px 0; font-weight:bold; padding-left:5px;">Cash flows from financing
                                 activities
                             </td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td style="padding:8px 0; padding-left:30px;">Paid up capital</td>
+                            <td style="padding:2px 0; padding-left:5px;">Paid up capital</td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:8px 0; padding-left:30px;">Owner's current account</td>
+                            <td style="padding:2px 0; padding-left:5px;">Owner's current account</td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:10px 0; font-weight:bold;padding-left:30px;">
+                            <td style="padding:2px 0; font-weight:bold;padding-left:5px;">
                                 Net cash generated from financing activities
                             </td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:12px 0; font-weight:bold;padding-left:30px;">
+                            <td style="padding:2px 0; font-weight:bold;padding-left:5px;">
                                 Net increase in cash and cash equivalents
                             </td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:8px 0; padding-left:30px;">Cash and cash equivalents, beginning of the
+                            <td style="padding:2px 0; padding-left:5px;">Cash and cash equivalents, beginning of the
                                 year
                             </td>
                             <td style="text-align:right;"></td>
                             <td style="text-align:right;"></td>
                         </tr>
                         <tr>
-                            <td style="padding:12px 0; font-weight:bold;padding-left:30px;">
+                            <td style="padding:2px 0; font-weight:bold;padding-left:5px;">
                                 Cash and cash equivalents, end of the period
                             </td>
                             <td style="text-align:right;"></td>
@@ -2019,7 +1981,7 @@
                     </tbody>
                 </table>
 
-                <div style="margin-left:50px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong>The accompanying notes 1 to 16 form an integral part of these financial statements.
                         </strong>
@@ -2039,63 +2001,67 @@
                 </div>
 
                 <div style="page-break-before: always;"></div>
-
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    <t t-esc="docs[0].name or 'Company Name'"/>
-                </div>
-                <div style="margin-left:50px; font-size:18px; font-weight:bold;">
-                    (<t t-esc="docs[0].free_zone or 'Dubai'"/>), United Arab Emirates
-                </div>
-                <br/>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    <strong>Notes to the Financial Statements</strong>
+                <div style="margin-left:20px; margin-top:0px;color:#555;">
+                    <div style="font-size:18px;
+                border-bottom:1px solid #000;
+                display:inline-block;
+                padding-bottom:5px;
+                white-space:nowrap;
+                margin-bottom:5px;">
+                        <strong>Notes to the Financial Statements</strong>
+                    </div>
                     <br/>
-                    <strong>For the Year Ended 31/12/2025 (in AED)</strong>
+                    <div style="font-size:18px;
+                border-bottom:1px solid #000;
+                display:inline-block;
+                padding-bottom:5px;
+                white-space:nowrap;
+                margin-bottom:20px;">
+                        <strong>For the Year Ended 31/12/2025 (in AED)</strong>
+                    </div>
                 </div>
 
-                <div style="margin-left:50px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
 
-                    <p style="margin-bottom:20px;">
+                    <p style="margin-bottom:10px;">
                         <strong>1 Legal status and business activities</strong>
                     </p>
 
-                    <p style="margin-bottom:15px;">
-                        <strong>1.1</strong>
-                        COMPANYNAME is registered with the
-                        FreeZoneCity, United Arab Emirates under license no.
-                        License(company_license_number) established on
-                        IncorporationDate in the name of
-                        Manager(
-                        Nationality1 National) and
-                        Owner(
-                        Nationality2 National).
-                    </p>
+                    <ul style="list-style-type: none; padding-left: 0; margin: 0;">
+                        <li style="margin-bottom: 10px; display: flex;">
+                            <strong style="min-width: 30px;">1.1</strong>
+                            <span>
+                                COMPANYNAME is registered with the FreeZoneCity, United Arab Emirates under license no.
+                                License(company_license_number) established on IncorporationDate in the name of
+                                Manager( Nationality1 National) and Owner( Nationality2 National).
+                            </span>
+                        </li>
 
-                    <p style="margin-bottom:15px;">
-                        <strong>1.2</strong>
-                        The business activity of the Entity is providing
-                        BusinessActivity services.
-                    </p>
+                        <li style="margin-bottom: 10px; display: flex;">
+                            <strong style="min-width: 30px;">1.2</strong>
+                            <span>The business activity of the Entity is providing BusinessActivity services.</span>
+                        </li>
 
-                    <p style="margin-bottom:15px;">
-                        <strong>1.3</strong>
-                        The registered office of the Entity is located at
-                        Address, United Arab Emirates.
-                    </p>
+                        <li style="margin-bottom: 10px; display: flex;">
+                            <strong style="min-width: 30px;">1.3</strong>
+                            <span>The registered office of the Entity is located at Address, United Arab Emirates.
+                            </span>
+                        </li>
 
-                    <p style="margin-bottom:15px;">
-                        <strong>1.4</strong>
-                        The management and control are vested with
-                        Manager, Director.
-                    </p>
+                        <li style="margin-bottom: 10px; display: flex;">
+                            <strong style="min-width: 30px;">1.4</strong>
+                            <span>The management and control are vested with Manager, Director.</span>
+                        </li>
 
-                    <p style="margin-bottom:20px;">
-                        <strong>1.5</strong>
-                        These financial statements incorporate the operating results of license no.:
-                        License (company_license_number)
-                    </p>
+                        <li style="margin-bottom: 10px; display: flex;">
+                            <strong style="min-width: 30px;">1.5</strong>
+                            <span>These financial statements incorporate the operating results of license no.: License
+                                (company_license_number)
+                            </span>
+                        </li>
+                    </ul>
 
-                    <p style="margin-bottom:20px;">
+                    <p>
                         <strong>2 General information</strong>
                     </p>
 
@@ -2129,7 +2095,7 @@
                         otherwise disclosed in respective accounting policies.
                     </p>
 
-                    <p style="margin-bottom:20px;">
+                    <p>
                         <strong>3 Standards, amendments and interpretations</strong>
                     </p>
 
@@ -2143,67 +2109,69 @@
                         to adopt early.
                     </p>
 
-                    <table style="width:100%; border-collapse:collapse; font-size:13px; margin-top:15px; margin-bottom:30px;">
+                    <table style="border: 1px solid white; width:100%; border-collapse:collapse; font-size:13px; margin-top:15px; margin-bottom:30px;">
                         <thead>
-                            <tr style="border:1px solid #000">
-                                <th style="border-bottom:1px solid #000; padding:8px; text-align:left; width:70%;">
+                            <tr>
+                                <th style="border-bottom:1px solid white; padding:8px; text-align:left; width:70%;">
                                 </th>
-                                <th style="border-bottom:1px solid #000; padding:8px; text-align:center; width:30%;border:1px solid #000">
+                                <th style="border-bottom:1px solid white; padding:8px; text-align:center; width:30%;border:1px solid white;">
                                     <strong>Effective for periods beginning on or after</strong>
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr style="border:1px solid #000">
-                                <td style="padding:8px; border-bottom:1px solid #ddd;">Amendments to IAS 21 'The Effects
+                            <tr>
+                                <td style="padding:8px; border-bottom:1px solid white;">Amendments to IAS 21 'The
+                                    Effects
                                     of Changes in Foreign Exchange Rates Lack of Exchangeability'
                                 </td>
-                                <td style="padding:8px; text-align:center; border-bottom:1px solid #ddd;border:1px solid #000">
+                                <td style="padding:8px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
                                     January 01,
                                     2025
                                 </td>
                             </tr>
-                            <tr style="border:1px solid #000">
-                                <td style="padding:8px; border-bottom:1px solid #ddd;">IFRS S1 'General requirements for
+                            <tr>
+                                <td style="padding:8px; border-bottom:1px solid white;">IFRS S1 'General requirements
+                                    for
                                     Disclosure of Sustainability-related Financial Information'
                                 </td>
-                                <td style="padding:8px; text-align:center; border-bottom:1px solid #ddd;border:1px solid #000">
+                                <td style="padding:8px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
                                     July 01,
                                     2025
                                 </td>
                             </tr>
-                            <tr style="border:1px solid #000">
-                                <td style="padding:8px; border-bottom:1px solid #ddd;">IFRS S2 'Climate-Related
+                            <tr>
+                                <td style="padding:8px; border-bottom:1px solid white;">IFRS S2 'Climate-Related
                                     Disclosures'
                                 </td>
-                                <td style="padding:8px; text-align:center; border-bottom:1px solid #ddd;border:1px solid #000">
+                                <td style="padding:8px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
                                     July 01,
                                     2025
                                 </td>
                             </tr>
-                            <tr style="border:1px solid #000">
-                                <td style="padding:8px; border-bottom:1px solid #ddd;">Amendments to IFRS 7 Financial
+                            <tr>
+                                <td style="padding:8px; border-bottom:1px solid white;">Amendments to IFRS 7 Financial
                                     Instruments: Disclosures Amendments regarding the classification and measurement of
                                     financial instruments
                                 </td>
-                                <td style="padding:8px; text-align:center; border-bottom:1px solid #ddd;border:1px solid #000">
+                                <td style="padding:8px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
                                     January 01,
                                     2026
                                 </td>
                             </tr>
-                            <tr style="border:1px solid #000">
-                                <td style="padding:8px; border-bottom:1px solid #ddd;">Amendments to IFRS 9 Financial
+                            <tr>
+                                <td style="padding:8px; border-bottom:1px solid white;">Amendments to IFRS 9 Financial
                                     Instruments Amendments regarding the classification and measurement of financial
                                     instruments
                                 </td>
-                                <td style="padding:8px; text-align:center; border-bottom:1px solid #ddd;border:1px solid #000">
+                                <td style="padding:8px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
                                     January 01,
                                     2026
                                 </td>
                             </tr>
-                            <tr style="border:1px solid #000">
+                            <tr>
                                 <td style="padding:8px;">IFRS 17 Insurance Contracts</td>
-                                <td style="padding:8px; text-align:center;border:1px solid #000">January 01, 2026</td>
+                                <td style="padding:8px; text-align:center;border:1px solid white;">January 01, 2026</td>
                             </tr>
                         </tbody>
                     </table>
@@ -2214,7 +2182,7 @@
                         than in presentation/disclosure.
                     </p>
 
-                    <p style="margin-bottom:20px; margin-top:40px;">
+                    <p style=" margin-top:40px;">
                         <strong>4 Summary of significant accounting policies</strong>
                     </p>
 
@@ -2233,20 +2201,8 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    <t t-esc="docs[0].name or 'Company Name'"/>
-                </div>
-                <div style="margin-left:50px; font-size:18px; font-weight:bold;">
-                    (<t t-esc="docs[0].free_zone or 'Dubai'"/>), United Arab Emirates
-                </div>
-                <br/>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    <strong>Notes to the Financial Statements</strong>
-                    <br/>
-                    <strong>For the Year Ended 31/12/2025 (in AED)</strong>
-                </div>
 
-                <div style="margin-left:50px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
 
                     <p style="margin-bottom:20px;">
                         <strong>a.</strong>
@@ -2256,9 +2212,9 @@
                         recognized in the financial statements:
                     </p>
 
-                    <p style="margin-bottom:20px;">
-                        <strong>Recognition of provisions and contingencies</strong>
-                    </p>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Recognition of provisions and contingencies
+                    </div>
                     <p style="margin-bottom:15px;">
                         Judgment is exercised by management to distinguish between provisions and contingencies in
                         accordance with International Accounting Standard (IAS) 37 'Provision, Contingent Liabilities
@@ -2267,17 +2223,16 @@
                     <p style="margin-bottom:20px;">
                         <strong>b.</strong>
                         Key sources of estimation uncertainty
+                        <br/>
                         The following are the key assumptions concerning the future, and other key sources of estimation
                         uncertainty at the end of the reporting period, that have a significant risk of causing a
                         material adjustment to the carrying amounts of assets and liabilities within the next reporting
                         period.
                     </p>
-
-                    <p style="margin-bottom:20px;">
-                        <strong>Property, plant and equipment – useful lives, the pattern of economic benefits and
-                            impairment
-                        </strong>
-                    </p>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Property, plant and equipment – useful lives, the pattern of economic benefits and
+                        impairment
+                    </div>
                     <p style="margin-bottom:15px;">
                         Estimates with respect to residual values and useful lives and the pattern of flow of economic
                         benefits are based on the analysis of the management of the Entity. Further, the Entity reviews
@@ -2285,10 +2240,9 @@
                         the future might affect the carrying amount of the respective item of tangible fixed assets,
                         with a corresponding effect on the depreciation charge and impairment.
                     </p>
-                    <p style="margin-bottom:20px;">
-                        <strong>Determining the lease term of contracts with renewal and termination options.
-                        </strong>
-                    </p>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Determining the lease term of contracts with renewal and termination options.
+                    </div>
                     <p style="margin-bottom:15px;">
                         The Entity determines the lease term as the non-cancellable term of the lease, together with any
                         period covered by an option to extend the lease if it is reasonably certain to be exercised, or
@@ -2312,10 +2266,9 @@
                         incremental borrowing rate on commencement of the lease is used.
                     </p>
 
-                    <p style="margin-bottom:20px;">
-                        <strong>Impairment of trade receivables
-                        </strong>
-                    </p>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Impairment of trade receivables
+                    </div>
                     <p style="margin-bottom:15px;">
                         An adequate amount of allowance for impairment is provided for specific groups of accounts,
                         where objective evidence of impairment exists.
@@ -2329,19 +2282,17 @@
                         reasonable and supportable forward-looking information, which is based on assumptions for the
                         future movement of different economic drivers and how these drivers will affect each other.
                     </p>
-
-                    <p style="margin-bottom:20px;">
-                        <strong>Retirement benefit obligation
-                        </strong>
-                    </p>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Retirement benefit obligation
+                    </div>
                     <p style="margin-bottom:15px;">
                         Retirement benefit obligation is provided as per the UAE labour laws which management believes
                         results in a fair reflection of liability as at the reporting date.
                     </p>
-                    <p style="margin-bottom:20px;">
-                        <strong>Impairment of non-financial assets
-                        </strong>
-                    </p>
+
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Impairment of non-financial assets
+                    </div>
                     <p style="margin-bottom:15px;">
                         The Entity has considered all impairment indicators arising and any significant uncertainties
                         around its property and equipment, and right-of- use assets especially arising front any change
@@ -2349,25 +2300,11 @@
                     </p>
                 </div>
 
-                <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    <t t-esc="docs[0].name or 'Company Name'"/>
-                </div>
-                <div style="margin-left:50px; font-size:18px; font-weight:bold;">
-                    (<t t-esc="docs[0].free_zone or 'Dubai'"/>), United Arab Emirates
-                </div>
-                <br/>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    <strong>Notes to the Financial Statements</strong>
-                    <br/>
-                    <strong>For the Year Ended 31/12/2025 (in AED)</strong>
-                </div>
-
-                <div style="margin-left:50px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
-                    <p style="margin-bottom:20px;">
-                        <strong>Expected credit losses and impairment of financial assets</strong>
-                    </p>
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Expected credit losses and impairment of financial assets
+                    </div>
                     <p style="margin-bottom:15px;">
                         The Entity has applied management overlays on the existing ECL models by applying probability
                         weightage scenarios on the relevant macroeconomic factors relative to the economic climate of
@@ -2375,18 +2312,18 @@
                         potentially affected sectors for any indicators of impairment and concluded that there is no
                         material impact.
                     </p>
-                    <p style="margin-bottom:20px;">
-                        <strong>Commitments and contingent liabilities</strong>
-                    </p>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Commitments and contingent liabilities
+                    </div>
                     <p style="margin-bottom:15px;">
                         The Entity has assessed the impact of any operational disruptions, including any contractual
                         challenges and changes in business or commercial relationships among the customers and
                         suppliers, to identify any potential increases in commitments and contingent liabilities, and no
                         issues were noted.
                     </p>
-                    <p style="margin-bottom:20px;">
-                        <strong>Going concern</strong>
-                    </p>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Going concern
+                    </div>
                     <p style="margin-bottom:15px;">
                         The Entity has assessed its ability to continue as a going concern in light of the current
                         economic conditions and all available information about future risks and uncertainties. To make
@@ -2404,6 +2341,7 @@
                     <p style="margin-bottom:15px;">
                         <strong>a.</strong>
                         Recognition and depreciation
+                        <br/>
                         Property and equipment (except freehold land) are stated at cost less accumulated depreciation
                         and accumulated impairment loss, (if any). The cost of property and equipment are depreciated
                         using the straight-line method over their estimated useful life.
@@ -2411,6 +2349,7 @@
                     <p style="margin-bottom:15px;">
                         <strong>b.</strong>
                         Subsequent costs
+                        <br/>
                         Subsequent costs are included in the asset’s carrying amount or are recognized as a separate
                         asset, as appropriate, only when it is probable that future economic benefits associated with
                         the item will flow to the Entity and the cost of the item can be measured reliably.
@@ -2426,6 +2365,7 @@
                     <p style="margin-bottom:15px;">
                         <strong>c.</strong>
                         Disposal
+                        <br/>
                         An item of tangible fixed assets, including the related accumulated depreciation and impairment
                         losses, if any, is derecognized upon disposal or when no future economic benefits are expected
                         to arise from the continued use of the asset.
@@ -2460,22 +2400,8 @@
                     </p>
                 </div>
 
-                <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    <t t-esc="docs[0].name or 'Company Name'"/>
-                </div>
-                <div style="margin-left:50px; font-size:18px; font-weight:bold;">
-                    (<t t-esc="docs[0].free_zone or 'Dubai'"/>), United Arab Emirates
-                </div>
-                <br/>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    <strong>Notes to the Financial Statements</strong>
-                    <br/>
-                    <strong>For the Year Ended 31/12/2025 (in AED)</strong>
-                </div>
-
-                <div style="margin-left:50px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         production, and attributable overhead expenses. Net realizable value signifies the estimated
                         selling price in the ordinary course of business, less net estimated costs of completion, and
@@ -2543,15 +2469,12 @@
                     <p style="margin-bottom:20px;">
                         <strong>4.10 Financial instruments</strong>
                     </p>
-                    <p style="margin-bottom:20px;">
-                        Exchange gains or losses arising in respect of trade and other payables in foreign currency are
-                        added to their respective carrying amounts.
-                    </p>
-                    <p style="margin-bottom:20px;">
+                    <p>
                         <strong>a.</strong>
                         Financial assets
-                        <br/>
-                        <strong>Initial recognition and measurement</strong>
+                        <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                            Initial recognition and measurement
+                        </div>
                         <br/>
                         The classification of financial assets at initial recognition depends on the financial asset’s
                         contractual cash flow characteristics and the Entity's business model for managing them. With
@@ -2575,65 +2498,43 @@
                     </p>
                 </div>
 
-                <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    <t t-esc="docs[0].name or 'Company Name'"/>
-                </div>
-                <div style="margin-left:50px; font-size:18px; font-weight:bold;">
-                    (<t t-esc="docs[0].free_zone or 'Dubai'"/>), United Arab Emirates
-                </div>
-                <br/>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    <strong>Notes to the Financial Statements</strong>
-                    <br/>
-                    <strong>For the Year Ended 31/12/2025 (in AED)</strong>
-                </div>
-
-                <div style="margin-left:50px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         Purchases or sales of financial assets that require delivery of assets within a time frame
                         established by regulation or convention in the marketplace (regular way trades) are recognized
                         on the trade date, i.e., the date that the Entity commits to purchase or sell the asset.
                     </p>
-                    <p style="margin-bottom:20px;">
-                        <strong>Subsequent measurement</strong>
-                    </p>
-                    <p style="margin-bottom:15px;">
+
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Subsequent measurement
+                    </div>
+                    <p>
                         For purposes of subsequent measurement, financial assets are classified into four categories:
                     </p>
+                    <ul>
+                        <li>Financial assets at amortized cost (debt instruments)</li>
+                        <li>Financial assets at fair value through OCI with recycling of cumulative gains and losses
+                            (debt instruments)
+                        </li>
+                        <li>Financial assets designated at fair value through OCI with no recycling of cumulative gains
+                            and losses upon derecognition (equity instruments)
+                        </li>
+                        <li>Financial assets at fair value through profit or loss</li>
+                        <li>Financial assets at amortized cost (debt instruments)</li>
+                    </ul>
                     <p>
-                        <strong>.</strong>
-                        Financial assets at amortized cost (debt instruments)
-                        <br/>
-                        <strong>.</strong>
-                        Financial assets at fair value through OCI with recycling of cumulative gains and losses (debt
-                        instruments)
-                        <br/>
-                        <strong>.</strong>
-                        Financial assets designated at fair value through OCI with no recycling of cumulative gains and
-                        losses upon derecognition (equity instruments)
-                        <br/>
-                        <strong>.</strong>
-                        Financial assets at fair value through profit or loss
-                        <br/>
-                        <strong>.</strong>
-                        Financial assets at amortized cost (debt instruments)
-                    </p>
-                    <p style="margin-bottom:15px;">
                         The Entity measures financial assets at amortized cost if both of the following conditions are
                         met:
                     </p>
-                    <p>
-                        <strong>.</strong>
-                        The financial asset is held within a business model with the objective to hold financial assets
-                        in order to collect contractual cash flows.
-                        <br/>
-                        <strong>.</strong>
-                        The contractual terms of the financial asset give rise on specified dates to cash flows that are
-                        solely outstanding payments of principal and interest on the principal amount.
-                        <br/>
-                    </p>
+                    <ul>
+                        <li>The financial asset is held within a business model with the objective to hold financial
+                            assets in order to collect contractual cash flows.
+                        </li>
+                        <li>The contractual terms of the financial asset give rise on specified dates to cash flows that
+                            are solely outstanding payments of principal and interest on the principal amount.
+                        </li>
+                    </ul>
 
                     <p style="margin-bottom:15px;">
                         Financial assets at amortized cost are subsequently measured using the effective interest rate
@@ -2645,22 +2546,23 @@
                         shareholder's current account, and cash and cash equivalents.
                     </p>
 
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Financial assets at fair value through OCI (debt instruments)
+                    </div>
                     <p style="margin-bottom:15px;">
-                        <strong>Financial assets at fair value through OCI (debt instruments)</strong>
-                    </p>
-                    <p>
                         The Entity measures debt instruments at fair value through OCI if both of the following
                         conditions are met:
                     </p>
-                    <p>
-                        <strong>.</strong>
-                        The financial asset is held within a business model with the objective of both holding to
-                        collect contractual cash flows and selling; and
-                        <br/>
-                        <strong>.</strong>
-                        The contractual terms of the financial asset give rise on specified dates to cash flows that are
-                        solely outstanding payments of principal and interest on the principal amount.
-                    </p>
+                    <ul>
+                        <li>
+                            The financial asset is held within a business model with the objective of both holding to
+                            collect contractual cash flows and selling; and
+                        </li>
+                        <li>
+                            The contractual terms of the financial asset give rise on specified dates to cash flows that
+                            are solely outstanding payments of principal and interest on the principal amount.
+                        </li>
+                    </ul>
                     <p>
                         For debt instruments at fair value through OCI, interest income, foreign exchange revaluation
                         and impairment losses or reversals are recognized in the statement of profit or loss and
@@ -2670,9 +2572,9 @@
                         The remaining fair value changes are recognized in OCI. Upon derecognition, the cumulative fair
                         value change recognized in OCI is recycled to profit or loss.
                     </p>
-                    <p>
-                        <strong>Financial assets designated at fair value through OCI (equity instruments)</strong>
-                    </p>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Financial assets designated at fair value through OCI (equity instruments)
+                    </div>
                     <p>
                         Upon initial recognition, the Entity can elect to classify irrevocably its equity investments as
                         equity instruments designated at fair value through OCI when they meet the definition of equity
@@ -2686,35 +2588,16 @@
                         cost of the financial asset, in which case, such gains are recorded in OCI. Equity instruments
                         designated at fair value through OCI are not subject to impairment assessment.
                     </p>
-                    <p>
-                        <strong>Financial assets at fair value through profit or loss</strong>
-                    </p>
+
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Financial assets at fair value through profit or loss
+                    </div>
                     <p>
                         Financial assets at fair value through profit or loss include financial assets held for trading,
                         financial assets designated upon initial recognition a fair value through profit or loss, or
                         financial assets mandatorily required to be measured at fair value. Financial assets are
-                        classified as held for trading if they are acquired for the purpose of
-                    </p>
-                </div>
-
-                <div style="page-break-before: always;"></div>
-
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    <t t-esc="docs[0].name or 'Company Name'"/>
-                </div>
-                <div style="margin-left:50px; font-size:18px; font-weight:bold;">
-                    (<t t-esc="docs[0].free_zone or 'Dubai'"/>), United Arab Emirates
-                </div>
-                <br/>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    <strong>Notes to the Financial Statements</strong>
-                    <br/>
-                    <strong>For the Year Ended 31/12/2025 (in AED)</strong>
-                </div>
-
-                <div style="margin-left:50px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
-                    <p style="margin-bottom:15px;">
-                        selling or repurchasing in the near term. Derivatives, including separated embedded derivatives,
+                        classified as held for trading if they are acquired for the purpose of selling or repurchasing
+                        in the near term. Derivatives, including separated embedded derivatives,
                         are also classified as held for trading unless they are designated as effective hedging
                         instruments. Financial assets with cash flows that are not solely payments of principal and
                         interest are classified and measured at fair value through profit or loss, irrespective of the
@@ -2723,35 +2606,44 @@
                         fair value through profit or loss on initial recognition if doing so eliminates, or
                         significantly reduces, an accounting mismatch.
                     </p>
+                </div>
+
+
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         Financial assets at fair value through profit or loss are carried in the statement of financial
                         position at fair value with net changes in fair value recognized in the statement of profit or
                         loss.
                     </p>
-                    <p style="margin-bottom:20px;">
-                        <strong>Derecognition</strong>
-                    </p>
+
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Derecognition
+                    </div>
                     <p>
                         A financial asset (or, where applicable, a part of a financial asset or part of a group of
                         similar financial assets) is primarily derecognized (i.e., removed from the Entity’s statement
                         of financial position) when:
                     </p>
-                    <p>
-                        <strong>.</strong>
-                        The rights to receive cash flows from the asset have expired; or
-                        <br/>
-                        <strong>.</strong>
-                        The Entity has transferred its rights to receive cash flows from the asset or has assumed an
-                        obligation to pay the received cash flows in full without material delay to a third party under
-                        a ‘pass-through’ arrangement; and either
-                        <br/>
-                        <strong>(a)</strong>
-                        the Entity has transferred substantially all the risks and rewards of the asset, or
-                        <br/>
-                        <strong>(b)</strong>
-                        the Entity has neither transferred nor retained substantially all the risks and rewards of the
-                        asset but has transferred control of the asset.
-                    </p>
+                    <ul style="list-style-type: disc;">
+                        <li>The rights to receive cash flows from the asset have expired; or</li>
+                        <li>
+                            The Entity has transferred its rights to receive cash flows from the asset or has assumed an
+                            obligation to pay the received cash flows in full without material delay to a third party
+                            under
+                            a ‘pass-through’ arrangement; and either
+                        </li>
+                        <li style="list-style-type: none;">
+                            <strong>(a)</strong>
+                            the Entity has transferred substantially all the risks and rewards of the asset, or
+                        </li>
+                        <li style="list-style-type: none;">
+                            <strong>(b)</strong>
+                            the Entity has neither transferred nor retained substantially all the risks and
+                            rewards of the asset but has transferred control of the asset.
+                        </li>
+
+
+                    </ul>
                     <p>
                         When the Entity has transferred its rights to receive cash flows from an asset or has entered
                         into a pass-through arrangement, it evaluates if, and to what extent, it has retained the risks
@@ -2774,39 +2666,43 @@
                     <p>
                         <strong>b.</strong>
                         Financial liabilities
-                        <br/>
-                        <strong>Initial recognition and measurement</strong>
+
+                        <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                            Initial recognition and measurement
+                        </div>
                         <br/>
                         Financial liabilities are classified, at initial recognition, as financial liabilities at fair
                         value through profit or loss, loans and borrowings, payables, or as derivatives designated as
                         hedging instruments in an effective hedge, as appropriate.
                     </p>
+                    <br/>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Subsequent measurement
+                    </div>
                     <p>
-                        <strong>Subsequent measurement</strong>
+                        The measurement of financial liabilities depends on their classification, as described below:
                     </p>
-                    <p>The measurement of financial liabilities depends on their classification, as described below:
-                        <br/>
-                        <strong>.</strong>
-                        Financial liabilities at fair value through profit or loss
-                        <br/>
-                        <strong>.</strong>
-                        Financial liabilities at fair value through profit or loss include financial liabilities held
-                        for trading and financial liabilities designated upon initial recognition as at fair value
-                        through profit or loss.
-                        <br/>
-                        <strong>.</strong>
-                        Gains or losses on liabilities held for trading are recognized in the statement of profit or
-                        loss.
-                    </p>
+                    <ul>
+                        <li>Financial liabilities at fair value through profit or loss</li>
+                        <li>
+                            Financial liabilities at fair value through profit or loss include financial liabilities
+                            held
+                            for trading and financial liabilities designated upon initial recognition as at fair value
+                            through profit or loss.
+                        </li>
+                        <li>Gains or losses on liabilities held for trading are recognized in the statement of profit or
+                            loss.
+                        </li>
+                    </ul>
                     <p>
                         Financial liabilities designated upon initial recognition at fair value through profit or loss
                         are designated at the initial date of recognition, and only if the criteria in IFRS 9 are
                         satisfied. The Entity has not designated any financial liability as at fair value through profit
                         or loss.
                     </p>
-                    <p>
-                        <strong>Loans and borrowings</strong>
-                    </p>
+                    <div style="font-size:18px; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Loans and borrowings
+                    </div>
                     <p>
                         After initial recognition, interest-bearing loans and borrowings are subsequently measured at
                         amortized cost using the EIR method. Gains and losses are recognized in profit or loss when the
@@ -2814,31 +2710,17 @@
                     </p>
                 </div>
 
-                <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    <t t-esc="docs[0].name or 'Company Name'"/>
-                </div>
-                <div style="margin-left:50px; font-size:18px; font-weight:bold;">
-                    (<t t-esc="docs[0].free_zone or 'Dubai'"/>), United Arab Emirates
-                </div>
-                <br/>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    <strong>Notes to the Financial Statements</strong>
-                    <br/>
-                    <strong>For the Year Ended 31/12/2025 (in AED)</strong>
-                </div>
-
-                <div style="margin-left:50px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         Amortized cost is calculated by taking into account any discount or premium on acquisition and
                         fees or costs that are an integral part of the EIR. The EIR amortization is included as finance
                         costs in the statement of profit or loss. This category generally applies to interest-bearing
                         loans and borrowings.
                     </p>
-                    <p style="margin-bottom:15px;">
-                        <strong>Derecognition</strong>
-                    </p>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Derecognition
+                    </div>
                     <p style="margin-bottom:20px;">
                         A financial liability is derecognized when the obligation under the liability is discharged or
                         cancelled or expires. When an existing financial liability is replaced by another from the same
@@ -2866,18 +2748,15 @@
                         <strong>a.</strong>
                         Financial assets
                         <br/>
-                        Further disclosures relating to the impairment of financial assets are also provided in the
-                        following notes:
-                        <br/>
-                        <strong>.</strong>
-                        Disclosures for significant assumptions
-                        <br/>
-                        <strong>.</strong>
-                        Debt instruments at fair value through OCI
-                        <br/>
-                        <strong>.</strong>
-                        Trade receivables, including contract assets
-                        <br/>
+                        <p>
+                            Further disclosures relating to the impairment of financial assets are also provided in the
+                            following notes:
+                        </p>
+                        <ul>
+                            <li>Disclosures for significant assumptions</li>
+                            <li>Debt instruments at fair value through OCI</li>
+                            <li>Trade receivables, including contract assets</li>
+                        </ul>
                     </p>
                     <p>
                         The Entity recognizes an allowance for expected credit losses (ECLs) for all debt instruments
@@ -2926,22 +2805,8 @@
                     </p>
                 </div>
 
-                <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    <t t-esc="docs[0].name or 'Company Name'"/>
-                </div>
-                <div style="margin-left:50px; font-size:18px; font-weight:bold;">
-                    (<t t-esc="docs[0].free_zone or 'Dubai'"/>), United Arab Emirates
-                </div>
-                <br/>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    <strong>Notes to the Financial Statements</strong>
-                    <br/>
-                    <strong>For the Year Ended 31/12/2025 (in AED)</strong>
-                </div>
-
-                <div style="margin-left:50px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         <strong>b.</strong>
                         Non-financial assets
@@ -3029,22 +2894,8 @@
                     </p>
                 </div>
 
-                <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    <t t-esc="docs[0].name or 'Company Name'"/>
-                </div>
-                <div style="margin-left:50px; font-size:18px; font-weight:bold;">
-                    (<t t-esc="docs[0].free_zone or 'Dubai'"/>), United Arab Emirates
-                </div>
-                <br/>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    <strong>Notes to the Financial Statements</strong>
-                    <br/>
-                    <strong>For the Year Ended 31/12/2025 (in AED)</strong>
-                </div>
-
-                <div style="margin-left:50px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         Foreign currency transactions are initially recorded, in the functional currency by applying to
                         the foreign currency amount the exchange rate between the functional currency and the foreign
@@ -3058,17 +2909,22 @@
                     </p>
                     <p>
                         <strong>4.17 Value added tax (VAT)</strong>
-                        <br/>
-                        Revenue, expenses, and assets are recognized at amounts net of value-added tax except:
-                        <br/>
-                        <strong>.</strong>
-                        Where VAT incurred on the purchase of assets or services is not recoverable
-                        from the taxation authority, in which case the VAT is recognized as part of cost of acquisition
-                        of the asset or part of the expense item, as applicable.
-                        <br/>
-                        <strong>.</strong>
-                        Where receivables and payables are stated with the amount of VAT included.
                     </p>
+                    <p>
+                        Revenue, expenses, and assets are recognized at amounts net of value-added tax except:
+                    </p>
+                    <ul>
+                        <li>
+                            Where VAT incurred on the purchase of assets or services is not recoverable
+                            from the taxation authority, in which case the VAT is recognized as part of cost of
+                            acquisition
+                            of the asset or part of the expense item, as applicable.
+                        </li>
+                        <li>
+                            Where receivables and payables are stated with the amount of VAT included.
+                        </li>
+                    </ul>
+
                     <p>
                         The net amount of VAT recoverable from or payable to the taxation authority is included as part
                         of receivable or payables in the statement of financial position.
@@ -3088,20 +2944,17 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    <t t-esc="docs[0].name or 'Company Name'"/>
-                </div>
-                <div style="margin-left:50px; font-size:18px; font-weight:bold;">
-                    (<t t-esc="docs[0].free_zone or 'Dubai'"/>), United Arab Emirates
-                </div>
-                <br/>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    <strong>Notes to the Financial Statements</strong>
+                <div style="margin-left:20px; margin-top:0px;color:#555;">
+                    <div style="font-size:18px;  border-bottom:1px solid #000;  display:inline-block;  padding-bottom:5px;  white-space:nowrap; margin-bottom:5px;">
+                        <strong>Notes to the Financial Statements</strong>
+                    </div>
                     <br/>
-                    <strong>For the Year Ended 31/12/2025 (in AED)</strong>
+                    <div style="font-size:18px;  border-bottom:1px solid #000;   display:inline-block;   padding-bottom:5px;     white-space:nowrap;   margin-bottom:20px;">
+                        <strong>For the Year Ended 31/12/2025 (in AED)</strong>
+                    </div>
                 </div>
 
-                <div style="margin-left:50px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify; margin-top:20px;">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify; margin-top:20px;">
 
                     <table style="width:100%; border-collapse:collapse;border:1px solid #000">
                         <thead>
@@ -3333,22 +3186,7 @@
                 </div>
 
 
-                <div style="page-break-before: always;"></div>
-
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    <t t-esc="docs[0].name or 'Company Name'"/>
-                </div>
-                <div style="margin-left:50px; font-size:18px; font-weight:bold;">
-                    (<t t-esc="docs[0].free_zone or 'Dubai'"/>), United Arab Emirates
-                </div>
-                <br/>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    <strong>Notes to the Financial Statements</strong>
-                    <br/>
-                    <strong>For the Year Ended 31/12/2025 (in AED)</strong>
-                </div>
-
-                <div style="margin-left:50px; margin-right:50px; font-size:18px;">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px;">
                     <table style="width:100%; border-collapse:collapse; border:1px solid #000; table-layout:fixed;border:1px solid #000">
                         <colgroup>
                             <col style="width:40%;"/>
@@ -3444,9 +3282,9 @@
                 <br/>
                 <br/>
                 <br/>
-                <div style="margin-left:50px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
-                        <strong>Risk management</strong>
+                        <strong>13. Risk management</strong>
                         <br/>
                         The Entity monitors and manages the financial risks relating to its business and operations.
                         These risks include market, credit risk, liquidity risk.
@@ -3455,9 +3293,10 @@
                         It maintains timely reports about its risks management function and monitors risks and policies
                         implemented to mitigate risk exposures.
                     </p>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Market Risk
+                    </div>
                     <p>
-                        <strong>Market risk</strong>
-                        <br/>
                         The market risk is the risk that the fair value or cash flows of a financial instrument will
                         fluctuate due to changes in market prices. Market risk reflects interest rate risk, currency
                         risk and other price risks.
@@ -3467,9 +3306,10 @@
                         liabilities are denominated in UAE Dirham. There are no assets and liabilities which expose it
                         to interest rate risk and other price risks.
                     </p>
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Credit Risk
+                    </div>
                     <p>
-                        <strong>Credit risk</strong>
-                        <br/>
                         Credit risk is the risk that counter party will not meet its obligations under a financial
                         instrument or customer contract, leading to a financial loss.
                     </p>
@@ -3479,30 +3319,31 @@
                         normal course of its business.
                         Entity has sufficient funds to settle its financial liabilities.
                     </p>
+                     <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        Liquidity Risk
+                    </div>
                     <p>
-                        <strong>Liquidity risk</strong>
-                        <br/>
                         Liquidity risk is the risk that an entity will have difficulties in paying its financial
                         liabilities.
                         Entity has sufficient funds to pay off its current liabilities.
                     </p>
                     <p>
-                        <strong>Financial assets and liabilities</strong>
+                        <strong>14. Financial assets and liabilities</strong>
                         <br/>
                         The item consists of the following:
                     </p>
 
-                    <table style="width:100%; max-width:calc(100% - 100px); border-collapse:collapse; font-size:18px; margin-top:15px; margin-bottom:20px; box-sizing:border-box;border:1px solid #000">
+                    <table style="width:100%; max-width:calc(100% - 100px); border-collapse:collapse; font-size:18px; margin-top:15px; margin-bottom:20px; box-sizing:border-box;border:1px solid white">
                         <thead>
-                            <tr style="border:1px solid #000">
-                                <th style="border-bottom:2px solid black; padding:8px 0; text-align:left; width:40%;"></th>
-                                <th style="border-bottom:2px solid black; padding:8px 0; text-align:center; width:20%;"></th>
-                                <th style="border-bottom:2px solid black; padding:8px 0; text-align:center; width:20%;border:1px solid #000">
+                            <tr style="border:1px solid white">
+                                <th style=" padding:8px 0; text-align:left; width:40%;"></th>
+                                <th style=" padding:8px 0; text-align:center; width:20%;"></th>
+                                <th style=" padding:8px 0; text-align:center; width:20%;border:1px solid white">
                                     <span style="background-color:yellow; padding:4px 12px; font-weight:bold;">
                                         YE
                                     </span>
                                 </th>
-                                <th style="border-bottom:2px solid black; padding:8px 0; text-align:center; width:20%;border:1px solid #000">
+                                <th style=" padding:8px 0; text-align:center; width:20%;border:1px solid white">
                                     <span style="background-color:yellow; padding:4px 12px; font-weight:bold;">
                                         PE
                                     </span>
@@ -3510,46 +3351,31 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr style="border:1px solid #000">
+                            <tr style="border:1px solid white">
                                 <td style="padding:12px 0; font-weight:bold;padding-left:30px;">Financial assets</td>
-                                <td style="border:1px solid #000"></td>
-                                <td style="border:1px solid #000"></td>
-                                <td style="border:1px solid #000"></td>
+                                <td style="border:1px solid white"></td>
+                                <td style="border:1px solid white"></td>
+                                <td style="border:1px solid white"></td>
                             </tr>
-                            <tr style="border:1px solid #000">
+                            <tr style="border:1px solid white">
                                 <td style="padding:8px 0; padding-left:30px;">Accounts receivable</td>
-                                <td style="text-align:center;border:1px solid #000"></td>
-                                <td style="text-align:right;border:1px solid #000"></td>
-                                <td style="text-align:right;border:1px solid #000"></td>
+                                <td style="text-align:center;border:1px solid white"></td>
+                                <td style="text-align:right;border:1px solid white"></td>
+                                <td style="text-align:right;border:1px solid white"></td>
                             </tr>
-                            <tr style="border:1px solid #000">
+                            <tr style="border:1px solid white">
                                 <td style="padding:8px 0; padding-left:30px;">Other receivables</td>
-                                <td style="text-align:center;border:1px solid #000"></td>
-                                <td style="text-align:right;border:1px solid #000"></td>
-                                <td style="text-align:right;border:1px solid #000"></td>
+                                <td style="text-align:center;border:1px solid white"></td>
+                                <td style="text-align:right;border:1px solid white"></td>
+                                <td style="text-align:right;border:1px solid white"></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
 
-                <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:50px; font-size:18px; font-weight:bold; margin-top:40px;">
-                    System Limited
-                </div>
-                <div style="margin-left:50px; font-size:18px;">
-                    (test), United Arab Emirates
-                </div>
-
-                <div style="margin-left:50px; margin-top:30px; font-size:18px; font-weight:bold;">
-                    Notes to the Financial Statements
-                </div>
-                <div style="margin-left:50px; font-size:18px; margin-bottom:30px;">
-                    For the Year Ended 31/12/2025 (in AED)
-                </div>
-
-                <div style="margin-left:50px; margin-right:50px; font-size:18px;">
-                    <table style="width:100%; border-collapse:collapse; border:1px solid #000; table-layout:fixed;border:1px solid #000">
+                <div style="margin-left:20px; margin-right:50px; font-size:18px;">
+                    <table style="width:100%; border-collapse:collapse; border:1px solid white; table-layout:fixed;">
                         <colgroup>
                             <col style="width:35%;"/>
                             <col style="width:16.25%;"/>
@@ -3558,32 +3384,32 @@
                             <col style="width:16.25%;"/>
                         </colgroup>
                         <tbody>
-                            <tr style="border:1px solid #000">
-                                <td style="padding:10px 15px; border-bottom:1px solid #ddd;padding-left:30px;">Cash and
+                            <tr style="border:1px solid white">
+                                <td style="padding:10px 15px; border-bottom:1px solid white;padding-left:30px;">Cash and
                                     bank balancesg
                                 </td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
                             </tr>
-                            <tr style="border:1px solid #000">
-                                <td style="font-weight:bold;padding:10px 15px; border-bottom:1px solid #ddd;padding-left:30px;">
+                            <tr style="border:1px solid white">
+                                <td style="font-weight:bold;padding:10px 15px; border-bottom:1px solid white;padding-left:30px;">
                                     Financial liabilities
                                 </td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
                             </tr>
-                            <tr style="border:1px solid #000">
-                                <td style="padding:10px 15px; border-bottom:1px solid #ddd;padding-left:30px;">Other
+                            <tr style="border:1px solid white">
+                                <td style="padding:10px 15px; border-bottom:1px solid white;padding-left:30px;">Other
                                     payables
                                 </td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
-                                <td style="border-bottom:1px solid #ddd;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
+                                <td style="border-bottom:1px solid white;"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -3597,12 +3423,12 @@
                         values.
                     </p>
                     <p>
-                        <strong>15 Contingent liabilities</strong>
+                        <strong>15. Contingent liabilities</strong>
                         <br/>
                         There were no contingent liabilities as at the date of the financial statements.
                     </p>
                     <p>
-                        <strong>16 General</strong>
+                        <strong>16. General</strong>
                         <br/>
                         Amounts shown in the financial statements are rounded to the nearest UAE Dirham.
                     </p>
@@ -3611,7 +3437,7 @@
                 <br/>
                 <br/>
                 <br/>
-                <div style="margin-left:50px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:left;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:left;">
 
                     <div style="margin-bottom:100px;">
                         <div style="border-top: 2px dotted #000; width: 40%; margin-bottom: 10px;"></div>
