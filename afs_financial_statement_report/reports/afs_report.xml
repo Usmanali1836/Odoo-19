@@ -330,12 +330,22 @@
                         </tr>
                         <tr>
                             <td style="border: 1px solid white;"></td>
-                            <td style="border: 1px solid white; text-align:center; font-weight:bold;">
-                                <t t-esc="year_curr"/>
-                            </td>
-                            <td style="border: 1px solid white; text-align:center;">
-                                <t t-esc="year_prev"/>
-                            </td>
+                            <!--                            <td style="border: 1px solid white; text-align:center; font-weight:bold; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">-->
+                            <!--                                <t t-esc="year_curr"/>-->
+                            <!--                            </td>-->
+                            <!--                            <td style="border: 1px solid white; text-align:center; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">-->
+                            <!--                                <t t-esc="year_prev"/>-->
+                            <!--                            </td>-->
+                            <th style="border-bottom:2px solid black; padding:8px 0; text-align:center; width:22.5%;border:1px solid white;">
+                                <span style=" padding:3px 10px; font-weight:bold; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                                    <t t-esc="year_curr"/>
+                                </span>
+                            </th>
+                            <th style="border-bottom:2px solid black; padding:8px 0; text-align:center; width:22.5%;border:1px solid white;">
+                                <span style=" padding:3px 10px; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                                    <t t-esc="year_prev"/>
+                                </span>
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -428,6 +438,7 @@
                     </p>
 
                 </div>
+                <div style="page-break-before: always;"></div>
 
                 <div style="margin-left:20px; margin-top:0px; color:#555;">
 
@@ -442,7 +453,7 @@
                         </span>
                     </div>
                 </div>
-                <div style="margin-left:20px; margin-right:50px; margin-top:25px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:25px; padding-bottom:55px; font-size:18px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong style="text-decoration:underline;">Statement of director’s responsibilities:</strong>
                         <br/>
@@ -468,7 +479,7 @@
 
                 <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.8; text-align:left;">
 
-                    <div style="margin-bottom:100px;">
+                    <div style="margin-bottom:100px; margin-top:20px;">
                         <div style="border-top: 2px dotted #000; width: 40%; margin-bottom: 10px;"></div>
 
                         <strong>MANAGER</strong>
@@ -481,7 +492,7 @@
                         Date
                     </div>
                 </div>
-
+                <div style="page-break-before: always;"></div>
                 <div style="margin-left:20px; margin-top:0px; color:#555;">
 
                     <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
@@ -614,7 +625,7 @@
                         <strong>Auditor’s Responsibilities for the Audit of the Financial Statements (continued)
                         </strong>
                     </p>
-                    <ul>
+                    <ul style="margin-top:-15px;">
                         <li>
                             Our conclusions are based on the audit evidence obtained up to the date of our auditor’s
                             report.
@@ -630,7 +641,9 @@
                     <p>
                         <strong>Report on other legal and regulatory requirements.</strong>
                     </p>
-                    <p>As required by the provisions of Law, as amended from time to time we further confirm that,</p>
+                    <p style="margin-top:-15px;">As required by the provisions of Law, as amended from time to time we
+                        further confirm that,
+                    </p>
                     <ul>
                         <li>We have obtained all the information and explanations which we consider necessary for our
                             audit,
@@ -1452,7 +1465,7 @@
 
                 <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
 
-                    <p>
+                    <p style="padding-bottom:60px;">
                         <strong>
                             The accompanying notes 1 to 16 form an integral part of these financial
                             statements.
@@ -1476,20 +1489,26 @@
                 <div style="page-break-before: always;"></div>
 
                 <div style="margin-left:20px; color:#555;">
+                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
+                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                            <strong>Statement of Profit and Loss and Other Comprehensive Income</strong>
+                        </span>
+                    </div>
+                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                            <strong>For the Year EndDate (in AED)</strong>
+                        </span>
+                    </div>
 
-                    <div style="font-size:18px;  border-bottom:1px solid #000;   display:inline-block;   padding-bottom:5px;  white-space:nowrap; margin-bottom:5px;">
-                        <strong>Statement of Profit and Loss and Other Comprehensive Income</strong>
-                    </div>
-                    <div style="font-size:18px;  border-bottom:1px solid #000;  display:inline-block;    padding-bottom:5px;     white-space:nowrap;  margin-bottom:20px;">
-                        <strong>For the Year EndDate (in AED)</strong>
-                    </div>
                 </div>
                 <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
                         <tr>
                             <th style="padding:10px 0; text-align:left; width:40%;"></th>
-                            <th style="padding:10px 0; text-align:center; width:15%;">
-                                Notes
+                            <th style="padding:10px 0; text-align:right; width:22.5%;">
+                                <span style="padding:4px 12px; font-weight:bold;border-bottom:2px solid #000; display:inline-block;">
+                                    Notes
+                                </span>
                             </th>
                             <th style="padding:10px 0; text-align:right; width:22.5%;">
                                 <span style="padding:4px 12px; font-weight:bold;border-bottom:2px solid #000; display:inline-block;">
@@ -1497,7 +1516,7 @@
                                 </span>
                             </th>
                             <th style="padding:10px 0; text-align:center; width:22.5%;">
-                                <span style="padding:4px 12px; font-weight:bold;border-bottom:2px solid #000; display:inline-block;">
+                                <span style="padding:4px 12px; border-bottom:2px solid #000; display:inline-block;">
                                     <t t-esc="year_prev"/>
                                 </span>
                             </th>
@@ -1734,42 +1753,42 @@
                 </div>
 
                 <div style="page-break-before: always;"></div>
-                <div style="margin-left:20px; margin-top:0px;color:#555;">
-                    <div style="font-size:18px;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:5px;">
-                        <strong>Statement of Changes in Equity</strong>
+                <div style="margin-left:20px; color:#555;">
+                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
+                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                            <strong>Statement of Changes in Equity</strong>
+                        </span>
                     </div>
-                    <br/>
-                    <div style="font-size:18px;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:20px;">
-                        <strong>For the Year EndDate (in AED)</strong>
+                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                            <strong>For the Year EndDate (in AED)</strong>
+                        </span>
                     </div>
                 </div>
 
                 <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
                         <tr>
-                            <th style="padding:10px 0; text-align:left; width:35%;"></th>
-                            <th style="padding:10px 0; text-align:center; width:25%;">
-                                <span style="border-bottom:2px solid #000; display:inline-block; padding-bottom:2px;">
-                                    <strong>Owner's Current Account</strong>
+                            <th style="padding:10px 0; text-align:left; width:45%;"></th>
+                            <!--                            <th style="padding:10px 0; text-align:center; width:25%;">-->
+                            <!--                                <span style="border-bottom:2px solid #000; display:inline-block; padding-bottom:2px;">-->
+                            <!--                                    <strong>Owner's Current Account</strong>-->
+                            <!--                                </span>-->
+                            <!--                            </th>-->
+                            <th style="padding: 10px 20px 10px 0; text-align: right; width: 15%;">
+                                <span style="padding: 4px 0; font-weight: bold; border-bottom: 2px solid #000; display: inline-block;">
+                                    Owner's Current Account
                                 </span>
                             </th>
-                            <th style="padding:10px 0; text-align:center; width:20%;">
-                                <span style="border-bottom:2px solid #000; display:inline-block; padding-bottom:2px;">
-                                    <strong>Retained earnings</strong>
+
+                            <th style="padding: 10px 0 10px 20px; text-align: right; width: 15%;">
+                                <span style="padding: 4px 0; font-weight: bold; border-bottom: 2px solid #000; display: inline-block;">
+                                    Retained earnings
                                 </span>
                             </th>
-                            <th style="padding:10px 0; text-align:center; width:25%;">
-                                <span style="border-bottom:2px solid #000; display:inline-block; padding-bottom:2px;">
+
+                            <th style="padding: 10px 0; text-align: center; width: 25%;">
+                                <span style="border-bottom: 2px solid #000; display: inline-block; padding-bottom: 2px;">
                                     <strong>Total equity</strong>
                                 </span>
                             </th>
@@ -1851,24 +1870,16 @@
                 </div>
 
                 <div style="page-break-before: always;"></div>
-
-                <div style="margin-left:20px; margin-top:0px;color:#555;">
-                    <div style="font-size:18px;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:5px;">
-                        <strong>Statement of Cash Flows</strong>
+                <div style="margin-left:20px; color:#555;">
+                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
+                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                            <strong>Statement of Cash Flows</strong>
+                        </span>
                     </div>
-                    <br/>
-                    <div style="font-size:18px;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:20px;">
-                        <strong>For the Year EndDate (in AED)</strong>
+                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                            <strong>For the Year EndDate (in AED)</strong>
+                        </span>
                     </div>
                 </div>
 
@@ -1882,7 +1893,7 @@
                                 </span>
                             </th>
                             <th style="padding:10px 0; text-align:center; width:22.5%;">
-                                <span style="padding:4px 12px; font-weight:bold;border-bottom:2px solid #000; display:inline-block;">
+                                <span style="padding:4px 12px; border-bottom:2px solid #000; display:inline-block;">
                                     <t t-esc="year_prev"/>
                                 </span>
                             </th>
@@ -1898,8 +1909,14 @@
                         </tr>
                         <tr>
                             <td style="padding:2px 0; padding-left:5px;">Net (loss) / profit for the year / period</td>
-                            <td style="text-align:right;"></td>
-                            <td style="text-align:right;"></td>
+
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
+
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
                         </tr>
                         <tr>
                             <td style="padding:2px 0; font-weight:bold;padding-left:5px;">
@@ -1923,15 +1940,25 @@
                         <tr>
                             <td style="padding:2px 0; padding-left:5px;">Increase / (decrease) in current liabilities
                             </td>
-                            <td style="text-align:right;"></td>
-                            <td style="text-align:right;"></td>
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
+
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
                         </tr>
                         <tr>
                             <td style="padding:2px 0; font-weight:bold;padding-left:5px;">
                                 Net cash generated from operations
                             </td>
-                            <td style="text-align:right;"></td>
-                            <td style="text-align:right;"></td>
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
+
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
                         </tr>
                         <tr>
                             <td style="padding:2px 0; font-weight:bold; padding-left:5px;">Cash flows from financing
@@ -1947,15 +1974,25 @@
                         </tr>
                         <tr>
                             <td style="padding:2px 0; padding-left:5px;">Owner's current account</td>
-                            <td style="text-align:right;"></td>
-                            <td style="text-align:right;"></td>
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
+
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
                         </tr>
                         <tr>
                             <td style="padding:2px 0; font-weight:bold;padding-left:5px;">
                                 Net cash generated from financing activities
                             </td>
-                            <td style="text-align:right;"></td>
-                            <td style="text-align:right;"></td>
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
+
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
                         </tr>
                         <tr>
                             <td style="padding:2px 0; font-weight:bold;padding-left:5px;">
@@ -1968,15 +2005,25 @@
                             <td style="padding:2px 0; padding-left:5px;">Cash and cash equivalents, beginning of the
                                 year
                             </td>
-                            <td style="text-align:right;"></td>
-                            <td style="text-align:right;"></td>
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
+
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
                         </tr>
                         <tr>
                             <td style="padding:2px 0; font-weight:bold;padding-left:5px;">
                                 Cash and cash equivalents, end of the period
                             </td>
-                            <td style="text-align:right;"></td>
-                            <td style="text-align:right;"></td>
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
+
+                            <td style="text-align:right; width:10%; padding:4px 0;">
+                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -2001,23 +2048,16 @@
                 </div>
 
                 <div style="page-break-before: always;"></div>
-                <div style="margin-left:20px; margin-top:0px;color:#555;">
-                    <div style="font-size:18px;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:5px;">
-                        <strong>Notes to the Financial Statements</strong>
+                <div style="margin-left:20px; color:#555;">
+                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
+                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                            <strong>Notes to the Financial Statements</strong>
+                        </span>
                     </div>
-                    <br/>
-                    <div style="font-size:18px;
-                border-bottom:1px solid #000;
-                display:inline-block;
-                padding-bottom:5px;
-                white-space:nowrap;
-                margin-bottom:20px;">
-                        <strong>For the Year Ended 31/12/2025 (in AED)</strong>
+                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                            <strong>For the Year Ended 31/12/2025 (in AED)</strong>
+                        </span>
                     </div>
                 </div>
 
@@ -2061,53 +2101,56 @@
                         </li>
                     </ul>
 
-                    <p>
+                    <p style="padding-top:15px;">
                         <strong>2 General information</strong>
+                        <br/>
+                        <span>
+                            <strong>2.1 Statement of compliance</strong>
+                        </span>
+                        <br/>
+                        <span>These financial statements have been prepared in accordance with International Financial
+                            Reporting Standards (IFRSs) as issued by the International Accounting Standards Board (IASB)
+                            and
+                            applicable requirements of the laws of the United Arab Emirates (UAE).
+                        </span>
                     </p>
 
-                    <p style="margin-bottom:15px;">
-                        <strong>2.1 Statement of compliance</strong>
-                    </p>
-
-                    <p style="margin-bottom:15px;">
-                        These financial statements have been prepared in accordance with International Financial
-                        Reporting Standards (IFRSs) as issued by the International Accounting Standards Board (IASB) and
-                        applicable requirements of the laws of the United Arab Emirates (UAE).
-                    </p>
-
-                    <p style="margin-bottom:15px;">
+                    <p>
                         <strong>2.2 Basis of preparation</strong>
-                    </p>
-
-                    <p style="margin-bottom:15px;">
-                        These financial statements have been presented in United Arab Emirates Dirhams (AED) which is
-                        the functional and presentation currency of the Entity. Items included in these financial
-                        statements are measured using the currency of the primary economic environment in which the
-                        Entity operates ("the functional currency").
+                        <br/>
+                        <span>These financial statements have been presented in United Arab Emirates Dirhams (AED) which
+                            is
+                            the functional and presentation currency of the Entity. Items included in these financial
+                            statements are measured using the currency of the primary economic environment in which the
+                            Entity operates ("the functional currency").
+                        </span>
                     </p>
 
                     <p style="margin-bottom:15px;">
                         <strong>2.3 Basis of measurement</strong>
-                    </p>
-
-                    <p style="margin-bottom:20px;">
-                        These financial statements have been prepared based on historical cost convention except as
-                        otherwise disclosed in respective accounting policies.
+                        <br/>
+                        <span>These financial statements have been prepared based on historical cost convention except
+                            as
+                            otherwise disclosed in respective accounting policies.
+                        </span>
                     </p>
 
                     <p>
                         <strong>3 Standards, amendments and interpretations</strong>
+                        <br/>
+                        <span>
+                            <strong>3.1 Standard issued but not yet effective</strong>
+                        </span>
+                        <br/>
+                        <span>There are other number of standards, amendments to published standards, and
+                            interpretations that
+                            have been issued by the IASB and are effective in future periods that the Entity has decided
+                            not
+                            to adopt early.
+                        </span>
                     </p>
+                    <div style="page-break-before: always;"></div>
 
-                    <p style="margin-bottom:15px;">
-                        <strong>3.1 Standard issued but not yet effective</strong>
-                    </p>
-
-                    <p style="margin-bottom:15px;">
-                        There are other number of standards, amendments to published standards, and interpretations that
-                        have been issued by the IASB and are effective in future periods that the Entity has decided not
-                        to adopt early.
-                    </p>
 
                     <table style="border: 1px solid white; width:100%; border-collapse:collapse; font-size:13px; margin-top:15px; margin-bottom:30px;">
                         <thead>
@@ -2184,24 +2227,22 @@
 
                     <p style=" margin-top:40px;">
                         <strong>4 Summary of significant accounting policies</strong>
-                    </p>
-
-                    <p style="margin-bottom:15px;">
-                        <strong>4.1 Accounting judgments, estimates, and assumptions</strong>
-                    </p>
-
-                    <p style="margin-bottom:30px;">
-                        To prepare the financial statements in accordance with IFRSs requires management to make
-                        judgments and estimates that affect the amounts reported in the financial statements and related
-                        notes. Judgments and estimates are continually evaluated and are based on historical experience
-                        and other factors, including expectations of future events that are believed to be reasonable
-                        under the circumstances. Actual results may ultimately differ from these estimates.
+                        <br/>
+                        <span>
+                            <strong>4.1 Accounting judgments, estimates, and assumptions</strong>
+                        </span>
+                        <br/>
+                        <span>To prepare the financial statements in accordance with IFRSs requires management to make
+                            judgments and estimates that affect the amounts reported in the financial statements and
+                            related
+                            notes. Judgments and estimates are continually evaluated and are based on historical
+                            experience
+                            and other factors, including expectations of future events that are believed to be
+                            reasonable
+                            under the circumstances. Actual results may ultimately differ from these estimates.
+                        </span>
                     </p>
                 </div>
-
-                <div style="page-break-before: always;"></div>
-
-
                 <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
 
                     <p style="margin-bottom:20px;">
@@ -2336,16 +2377,17 @@
 
                     <p style="margin-bottom:20px; margin-top:40px;">
                         <strong>4.2 Property, plant, and equipment</strong>
-                    </p>
-
-                    <p style="margin-bottom:15px;">
-                        <strong>a.</strong>
-                        Recognition and depreciation
+                        <br/>
+                        <span>
+                            <strong>a.</strong>
+                            Recognition and depreciation
+                        </span>
                         <br/>
                         Property and equipment (except freehold land) are stated at cost less accumulated depreciation
                         and accumulated impairment loss, (if any). The cost of property and equipment are depreciated
                         using the straight-line method over their estimated useful life.
                     </p>
+
                     <p style="margin-bottom:15px;">
                         <strong>b.</strong>
                         Subsequent costs
@@ -2377,21 +2419,26 @@
                     </p>
                     <p style="margin-bottom:15px;">
                         <strong>4.3 Right-of-use assets</strong>
+                        <br/>
+                        <span>The Entity measures the right-of-use assets at cost (present value of the future lease
+                            payments
+                            discounted using the discount rate implicit in the lease and initial cost) and subsequently
+                            measured at cost less accumulated depreciation and impairment losses adjusted for any
+                            remeasurement of the lease liability.
+                            The cost of the right-of-use assets are depreciated using the straight-line method over
+                            their
+                            respective lease periods and discounted using the incremental borrowing rate prevalent at
+                            the
+                            date of inception of the lease.
+                        </span>
                     </p>
-                    <p style="margin-bottom:15px;">
-                        The Entity measures the right-of-use assets at cost (present value of the future lease payments
-                        discounted using the discount rate implicit in the lease and initial cost) and subsequently
-                        measured at cost less accumulated depreciation and impairment losses adjusted for any
-                        remeasurement of the lease liability.
-                        The cost of the right-of-use assets are depreciated using the straight-line method over their
-                        respective lease periods and discounted using the incremental borrowing rate prevalent at the
-                        date of inception of the lease.
-                    </p>
+
                     <p style="margin-bottom:15px;">
                         <strong>4.4 Inventories</strong>
-                    </p>
-                    <p style="margin-bottom:15px;">
-                        Inventories are valued at lower of weighted average cost or estimated net realizable value
+                        <br/>
+                        <span>
+                            Inventories are valued at lower of weighted average cost or estimated net realizable value
+                        </span>
                     </p>
                     <p style="margin-bottom:15px;">
                         Cost comprises all purchase costs, costs of conversion, and other costs incurred in bringing the
@@ -2417,74 +2464,98 @@
                     </p>
                     <p style="margin-bottom:20px;">
                         <strong>4.5 Trade and other receivables</strong>
+                        <br/>
+                        <span>
+                            These are recognized and carried at the original invoice amount being the fair value.
+                            Provision
+                            is made on the basis of lifetime ECLs that result from all possible default events over the
+                            expected life of the trade and other receivables. Bad debts are written off when considered
+                            irrecoverable.
+                        </span>
                     </p>
-                    <p style="margin-bottom:20px;">
-                        These are recognized and carried at the original invoice amount being the fair value. Provision
-                        is made on the basis of lifetime ECLs that result from all possible default events over the
-                        expected life of the trade and other receivables. Bad debts are written off when considered
-                        irrecoverable.
-                    </p>
+
                     <p style="margin-bottom:20px;">
                         Exchange gains or losses arising in respect of trade and other receivables in foreign currency
                         are added to their respective carrying amounts.
                     </p>
                     <p style="margin-bottom:20px;">
                         <strong>4.6 Prepayments</strong>
+                        <br/>
+                        <span>
+                            These relate to costs paid by the Entity as a result of past events whose benefits are to be
+                            recovered in future periods. It is recognized as an asset initially. Subsequently, it is
+                            expensed out when benefits are recovered in the period when period has occurred.
+                        </span>
                     </p>
-                    <p style="margin-bottom:20px;">
-                        These relate to costs paid by the Entity as a result of past events whose benefits are to be
-                        recovered in future periods. It is recognized as an asset initially. Subsequently, it is
-                        expensed out when benefits are recovered in the period when period has occurred.
-                    </p>
+
                     <p style="margin-bottom:20px;">
                         <strong>4.7 Cash and cash equivalents</strong>
-                    </p>
-                    <p style="margin-bottom:20px;">
-                        Cash and cash equivalents include cash on hand, deposits held at call with financial
-                        institutions, other short-term, highly liquid investments with original maturities of three
-                        months or less that are readily convertible into known amounts of cash and which are subject to
-                        an insignificant risk of change in value less short-term borrowings from banks.
+                        <br/>
+                        <span>
+                            Cash and cash equivalents include cash on hand, deposits held at call with financial
+                            institutions, other short-term, highly liquid investments with original maturities of three
+                            months or less that are readily convertible into known amounts of cash and which are subject
+                            to
+                            an insignificant risk of change in value less short-term borrowings from banks.
+                        </span>
                     </p>
                     <p style="margin-bottom:20px;">
                         <strong>4.8 Trade and other payables</strong>
+                        <br/>
+                        <span>Trade and other payables are carried at amortized cost which is the fair value of the
+                            consideration to be paid in the future for goods and services received, whether or not
+                            billed to
+                            the Entity.
+                        </span>
                     </p>
-                    <p style="margin-bottom:20px;">
-                        Trade and other payables are carried at amortized cost which is the fair value of the
-                        consideration to be paid in the future for goods and services received, whether or not billed to
-                        the Entity.
-                    </p>
+
                     <p style="margin-bottom:20px;">
                         Exchange gains or losses arising in respect of trade and other payables in foreign currency are
                         added to their respective carrying amounts.
                     </p>
                     <p style="margin-bottom:20px;">
                         <strong>4.9 Lease liability</strong>
-                    </p>
-                    <p style="margin-bottom:20px;">
-                        The Entity measures the lease liability at the present value of the future lease payments
-                        discounted using the discount rate implicit in the lease. Subsequently, the lease liability is
-                        adjusted for interest and lease payments, as well as the impact of lease modifications, amongst
-                        others.
+                        <br/>
+                        <span>
+                            The Entity measures the lease liability at the present value of the future lease payments
+                            discounted using the discount rate implicit in the lease. Subsequently, the lease liability
+                            is
+                            adjusted for interest and lease payments, as well as the impact of lease modifications,
+                            amongst
+                            others.
+                        </span>
                     </p>
                     <p style="margin-bottom:20px;">
                         <strong>4.10 Financial instruments</strong>
-                    </p>
-                    <p>
-                        <strong>a.</strong>
-                        Financial assets
-                        <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
-                            Initial recognition and measurement
-                        </div>
                         <br/>
-                        The classification of financial assets at initial recognition depends on the financial asset’s
-                        contractual cash flow characteristics and the Entity's business model for managing them. With
-                        the exception of trade receivables that do not contain a significant financing component or for
-                        which the Entity has applied the practical expedient, the Entity initially measures a financial
-                        asset at its fair value plus, in the case of a financial asset not at fair value through profit
-                        or loss, transaction costs. Trade receivables that do not contain a significant financing
-                        component or for which the Entity has applied the practical expedient are measured at the
-                        transaction price determined under IFRS 15.
+                        <span>
+                            <strong>a.</strong>
+                            Financial assets
+                        </span>
+                        <br/>
+                        <span style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                            <!--                            <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">-->
+                            Initial recognition and measurement
+                            <!--                            </div>-->
+                        </span>
+                        <br/>
+                        <sapn>
+                            The classification of financial assets at initial recognition depends on the financial
+                            asset’s
+                            contractual cash flow characteristics and the Entity's business model for managing them.
+                            With
+                            the exception of trade receivables that do not contain a significant financing component or
+                            for
+                            which the Entity has applied the practical expedient, the Entity initially measures a
+                            financial
+                            asset at its fair value plus, in the case of a financial asset not at fair value through
+                            profit
+                            or loss, transaction costs. Trade receivables that do not contain a significant financing
+                            component or for which the Entity has applied the practical expedient are measured at the
+                            transaction price determined under IFRS 15.
+                        </sapn>
                     </p>
+
                     <p style="margin-bottom:20px;">
                         In order for a financial asset to be classified and measured at amortized cost or fair value
                         through OCI, it needs to give rise to cash flows that are ‘solely payments of principal and
@@ -2666,10 +2737,10 @@
                     <p>
                         <strong>b.</strong>
                         Financial liabilities
-
-                        <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                        <br/>
+                        <span style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
                             Initial recognition and measurement
-                        </div>
+                        </span>
                         <br/>
                         Financial liabilities are classified, at initial recognition, as financial liabilities at fair
                         value through profit or loss, loans and borrowings, payables, or as derivatives designated as
@@ -2748,10 +2819,10 @@
                         <strong>a.</strong>
                         Financial assets
                         <br/>
-                        <p>
+                        <span>
                             Further disclosures relating to the impairment of financial assets are also provided in the
                             following notes:
-                        </p>
+                        </span>
                         <ul>
                             <li>Disclosures for significant assumptions</li>
                             <li>Debt instruments at fair value through OCI</li>
@@ -2909,9 +2980,10 @@
                     </p>
                     <p>
                         <strong>4.17 Value added tax (VAT)</strong>
-                    </p>
-                    <p>
-                        Revenue, expenses, and assets are recognized at amounts net of value-added tax except:
+                        <br/>
+                        <span>
+                            Revenue, expenses, and assets are recognized at amounts net of value-added tax except:
+                        </span>
                     </p>
                     <ul>
                         <li>
@@ -2944,15 +3016,15 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; margin-top:0px;color:#555;">
-                    <div style="font-size:18px;  border-bottom:1px solid #000;  display:inline-block;  padding-bottom:5px;  white-space:nowrap; margin-bottom:5px;">
-                        <strong>Notes to the Financial Statements</strong>
-                    </div>
-                    <br/>
-                    <div style="font-size:18px;  border-bottom:1px solid #000;   display:inline-block;   padding-bottom:5px;     white-space:nowrap;   margin-bottom:20px;">
-                        <strong>For the Year Ended 31/12/2025 (in AED)</strong>
-                    </div>
-                </div>
+<!--                <div style="margin-left:20px; margin-top:0px;color:#555;">-->
+<!--                    <div style="font-size:18px;  border-bottom:1px solid #000;  display:inline-block;  padding-bottom:5px;  white-space:nowrap; margin-bottom:5px;">-->
+<!--                        <strong>Notes to the Financial Statements</strong>-->
+<!--                    </div>-->
+<!--                    <br/>-->
+<!--                    <div style="font-size:18px;  border-bottom:1px solid #000;   display:inline-block;   padding-bottom:5px;     white-space:nowrap;   margin-bottom:20px;">-->
+<!--                        <strong>For the Year Ended 31/12/2025 (in AED)</strong>-->
+<!--                    </div>-->
+<!--                </div>-->
 
                 <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify; margin-top:20px;">
 
@@ -2964,12 +3036,12 @@
                                     Notes
                                 </th>
                                 <th style="border-bottom:2px solid black; padding:8px 0; text-align:center; width:22.5%;border:1px solid #000">
-                                    <span style="background-color:yellow; padding:3px 10px; font-weight:bold;">
+                                    <span style=" padding:3px 10px; font-weight:bold; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
                                         YE
                                     </span>
                                 </th>
                                 <th style="border-bottom:2px solid black; padding:8px 0; text-align:center; width:22.5%;border:1px solid #000">
-                                    <span style="background-color:yellow; padding:3px 10px; font-weight:bold;">
+                                    <span style=" padding:3px 10px; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
                                         PE
                                     </span>
                                 </th>
@@ -3319,7 +3391,7 @@
                         normal course of its business.
                         Entity has sufficient funds to settle its financial liabilities.
                     </p>
-                     <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
                         Liquidity Risk
                     </div>
                     <p>
@@ -3339,12 +3411,12 @@
                                 <th style=" padding:8px 0; text-align:left; width:40%;"></th>
                                 <th style=" padding:8px 0; text-align:center; width:20%;"></th>
                                 <th style=" padding:8px 0; text-align:center; width:20%;border:1px solid white">
-                                    <span style="background-color:yellow; padding:4px 12px; font-weight:bold;">
+                                    <span style=" padding:4px 12px; font-weight:bold; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
                                         YE
                                     </span>
                                 </th>
                                 <th style=" padding:8px 0; text-align:center; width:20%;border:1px solid white">
-                                    <span style="background-color:yellow; padding:4px 12px; font-weight:bold;">
+                                    <span style=" padding:4px 12px; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">
                                         PE
                                     </span>
                                 </th>
@@ -3457,7 +3529,7 @@
             </main>
             <div class="footer">
                 <div id="custom_footer_content"
-                     style="border-top: 1px solid #000; margin-top: 10px; padding-top: 5px; text-align: center; font-family: 'Times New Roman', serif; font-size: 18px;">
+                     style="border-top: 1px solid #000; color: #555; margin-top: 10px; padding-top: 5px; text-align: center; font-family: 'Times New Roman', serif; font-size: 18px;">
                 </div>
                 <script>
                     (function() {
