@@ -7,21 +7,14 @@
                 <style>
                     .header {
                     position: relative;
-                    height: 50px;
-                    text-align: left; /* does not affect absolute positioning */
+                    height: 100px; /* Increased height to accommodate extra lines */
+                    text-align: left;
                     }
-
                     .license-number-container {
                     position: absolute;
                     top: 35px;
-                    right: 15px; /* 🔑 MOVE TO RIGHT */
+                    right: 15px;
                     font-size: 18px;
-                    }
-
-                    .license-number {
-                    border-bottom: 1px solid #000;
-                    padding-bottom: 2px;
-                    white-space: nowrap;
                     }
                 </style>
 
@@ -29,33 +22,205 @@
                     function subst() {
                     var vars = {};
                     var x = document.location.search.substring(1).split('&amp;');
-                    for (var i in x) { var z = x[i].split('=', 2); vars[z[0]] = unescape(z[1]); }
-                    if (vars['page'] == "1") {
-                    var el = document.getElementById("company_header_info");
-                    if(el) el.style.display = 'none';
+                    for (var i in x) {
+                    var z = x[i].split('=', 2);
+                    vars[z[0]] = unescape(z[1]);
+                    }
+                    var currPage = parseInt(vars['page']);
+
+                    // 1. Hide main header on Cover Page (Page 1)
+                    var companyInfo = document.getElementById("company_header_info");
+                    if(companyInfo) {
+                    companyInfo.style.display = (currPage == 1) ? 'none' : 'block';
+                    }
+
+                    // 2. Show Table of Contents text ONLY on Page 2
+                    var tocHeader = document.getElementById("toc_header_info");
+                    if (tocHeader) {
+                    tocHeader.style.display = (currPage == 2) ? 'block' : 'none';
+                    }
+
+                    // 3. Show Entity Information text ONLY on Page 3
+                    var entityHeader = document.getElementById("entity_header_info");
+                    if (entityHeader) {
+                    entityHeader.style.display = (currPage == 3) ? 'block' : 'none';
+                    }
+
+                    // 4. Show Report of Directors on Pages 4, 5, and 6
+                    var directorsHeader = document.getElementById("directors_header_info");
+                    if (directorsHeader) {
+                    directorsHeader.style.display = (currPage >= 4 &amp;&amp; currPage &lt;= 6) ? 'block' : 'none';
+                    }
+
+                    // 5. Show Independent Auditor Report on Pages 7, 8, and 9
+                    var auditorHeader = document.getElementById("auditor_header_info");
+                    if (auditorHeader) {
+                    auditorHeader.style.display = (currPage >= 7 &amp;&amp; currPage &lt;= 9) ? 'block' : 'none';
+                    }
+
+                    // 6. Show Statement of Financial Position ONLY on Page 10
+                    var positionHeader = document.getElementById("financial_position_header_info");
+                    if (positionHeader) {
+                    positionHeader.style.display = (currPage == 10) ? 'block' : 'none';
+                    }
+
+                    // 7. Show Statement of Profit and Loss ONLY on Page 11
+                    var profitLossHeader = document.getElementById("profit_loss_header_info");
+                    if (profitLossHeader) {
+                    profitLossHeader.style.display = (currPage == 11) ? 'block' : 'none';
+                    }
+
+                    // 8. Show Statement of Changes in Equity ONLY on Page 12
+                    var equityHeader = document.getElementById("equity_header_info");
+                    if (equityHeader) {
+                    equityHeader.style.display = (currPage == 12) ? 'block' : 'none';
+                    }
+
+                    // 9. NEW: Show Statement of Cash Flows ONLY on Page 13
+                    var cashFlowHeader = document.getElementById("cash_flow_header_info");
+                    if (cashFlowHeader) {
+                    cashFlowHeader.style.display = (currPage == 13) ? 'block' : 'none';
+                    }
+
+                    // 10. Show Notes text from Page 14 onwards
+                    var notesStartPage = 14;
+                    var notesHeader = document.getElementById("notes_header_info");
+                    if (notesHeader) {
+                    notesHeader.style.display = (currPage >= notesStartPage) ? 'block' : 'none';
                     }
                     }
                     window.onload = subst;
                 </script>
-
                 <div id="company_header_info"
                      style="position: absolute; top: 35px; left: 15px; font-family: 'Times New Roman', Times, serif; color: #555;">
+                    <!--  Main Header-->
                     <div style="font-size:18px; font-weight:bold; white-space:nowrap;">
-                        <span style="text-decoration:underline; font-family: inherit;">
+                        <span style="text-decoration:underline;">
                             <t t-esc="docs.name"/>
                         </span>
                     </div>
                     <div style="font-size:18px; font-weight:bold; white-space:nowrap; margin-top: 0;">
-                        <span style="text-decoration:underline; font-family: inherit;">
+                        <span style="text-decoration:underline;">
                             <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>,
                             </t>
                             United Arab Emirates
                         </span>
                     </div>
+                    <!--Table of Contents-->
+                    <div id="toc_header_info" style="display:none; margin-top: 10px;">
+                        <div style="font-size:18px; white-space:nowrap;">
+                            <span style="text-decoration:underline;">
+                                <strong>Table of Contents</strong>
+                            </span>
+                        </div>
+                        <div style="font-size:18px; white-space:nowrap; margin-top: 0;">
+                            <span style="text-decoration:underline;">
+                                <strong>for the Year Ended 31/12/2025</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <!--                    Entity Information-->
+                    <div id="entity_header_info" style="display:none; margin-top: 10px;">
+                        <div style="font-size:18px; white-space:nowrap;">
+                            <span style="text-decoration:underline;">
+                                <strong>Entity Information</strong>
+                            </span>
+                        </div>
+                        <div style="font-size:18px; white-space:nowrap; margin-top: 0;">
+                            <span style="text-decoration:underline;">
+                                <strong>for the Year Ended 31/12/2025</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <!--                    Report of Directors-->
+                    <div id="directors_header_info" style="display:none; margin-top: 10px;">
+                        <div style="font-size:18px; white-space:nowrap;">
+                            <span style="text-decoration:underline;">
+                                <strong>Report of Directors</strong>
+                            </span>
+                        </div>
+                        <div style="font-size:18px; white-space:nowrap; margin-top: 0;">
+                            <span style="text-decoration:underline;">
+                                <strong>for the Year Ended 31/12/2025</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <!--                    Independent Auditor Report-->
+                    <div id="auditor_header_info" style="display:none; margin-top: 10px;">
+                        <div style="font-size:18px; white-space:nowrap;">
+                            <span style="text-decoration:underline;">
+                                <strong>Independent Auditor Report</strong>
+                            </span>
+                        </div>
+                        <div style="font-size:18px; white-space:nowrap; margin-top: 0;">
+                            <span style="text-decoration:underline;">
+                                <strong>for the Year Ended 31/12/2025</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <!--                    Statement of the Financial Position-->
+                    <div id="financial_position_header_info" style="display:none; margin-top: 10px;">
+                        <div style="font-size:18px; white-space:nowrap;">
+                            <span style="text-decoration:underline;">
+                                <strong>Statement of the Financial Position</strong>
+                            </span>
+                        </div>
+                        <div style="font-size:18px; white-space:nowrap; margin-top: 0;">
+                            <span style="text-decoration:underline;">
+                                <strong>As at EndDate (in AED)</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Statement of Profit and Loss and Other Comprehensive Income-->
+                    <div id="profit_loss_header_info" style="display:none; margin-top: 10px;">
+                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
+                            <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                                <strong>Statement of Profit and Loss and Other Comprehensive Income</strong>
+                            </span>
+                        </div>
+                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                            <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                                <strong>For the Year EndDate (in AED)</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <!--Statement of Changes in Equity-->
+                    <div id="equity_header_info" style="display:none; margin-top: 10px;">
+                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
+                            <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                                <strong>Statement of Changes in Equity</strong>
+                            </span>
+                        </div>
+                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                            <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                                <strong>For the Year EndDate (in AED)</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <!--      Statement of Cash Flows              -->
+                    <div id="cash_flow_header_info" style="display:none; margin-top: 10px;">
+                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
+                            <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                                <strong>Statement of Cash Flows</strong>
+                            </span>
+                        </div>
+                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                            <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
+                                <strong>For the Year EndDate (in AED)</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <!--Notes to the Financial-->
+                    <div id="notes_header_info" style="display:none; margin-top: 10px;">
+                        <div style="font-size:18px; font-weight:bold; text-decoration:underline;">Notes to the Financial
+                            Statements
+                        </div>
+                        <div style="font-size:18px; font-weight:bold; text-decoration:underline;">For the Year Ended
+                            31/12/2025 (in AED)
+                        </div>
+                    </div>
                 </div>
-
             </div>
-
             <main class="page">
                 <div style="text-decoration:underline; font-family: 'Times New Roman', Times, serif; font-size: 18px !important; position: absolute; top: 0px; right: 15px;"
                      class="license-number-container"
@@ -108,21 +273,20 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="padding-left: 20px;  color:#555;">
+                <!--                <div style="padding-left: 20px;  color:#555;">-->
 
-                    <div style="font-size:18px; white-space:nowrap; font-family: 'Times New Roman', Times, serif;">
-                        <span style="text-decoration:underline; font-family: inherit;">
-                            <strong>Table of Contents</strong>
-                        </span>
-                    </div>
-                    <div style="font-size:18px; white-space:nowrap; margin-top: 0;">
-                        <span style="text-decoration:underline; font-family: inherit;">
-                            <strong>for the Year Ended 31/12/2025</strong>
-                        </span>
-                    </div>
-                </div>
-                <br/>
-                <br/>
+                <!--                    <div style="font-size:18px; white-space:nowrap; font-family: 'Times New Roman', Times, serif;">-->
+                <!--                        <span style="text-decoration:underline; font-family: inherit;">-->
+                <!--                            <strong>Table of Contents</strong>-->
+                <!--                        </span>-->
+                <!--                    </div>-->
+                <!--                    <div style="font-size:18px; white-space:nowrap; margin-top: 0;">-->
+                <!--                        <span style="text-decoration:underline; font-family: inherit;">-->
+                <!--                            <strong>for the Year Ended 31/12/2025</strong>-->
+                <!--                        </span>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+
                 <table style="width:90%; font-size:18px; margin-left:16px; border-collapse: collapse; border: 1px solid white;">
                     <thead>
                         <tr>
@@ -172,20 +336,6 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; margin-top:0px; color:#555;">
-
-                    <div style="font-size:18px; white-space:nowrap; margin-bottom:0;">
-                        <span style="text-decoration:underline; font-family: inherit;">
-                            <strong>Entity Information</strong>
-                        </span>
-                    </div>
-                    <div style="font-size:18px; white-space:nowrap; margin-bottom:20px;">
-                        <span style="text-decoration:underline; font-family: inherit;">
-                            <strong>for the Year Ended 31/12/2025</strong>
-                        </span>
-                    </div>
-                </div>
-                <br/>
                 <div style="margin-left:20px; margin-right:50px; font-size:18px;">
                     <t t-set="has_owners"
                        t-value="any(docs[shareholder_field] for i in range(1,11) for shareholder_field in ['shareholder_' + str(i)])"/>
@@ -265,20 +415,6 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; margin-top:0px; color:#555;">
-
-                    <div style="font-size:18px; white-space:nowrap; margin-bottom:0;">
-                        <span style="text-decoration:underline; font-family: inherit;">
-                            <strong>Report of Directors</strong>
-                        </span>
-                    </div>
-                    <div style="font-size:18px; white-space:nowrap; margin-bottom:20px;">
-                        <span style="text-decoration:underline; font-family: inherit;">
-                            <strong>for the Year Ended 31/12/2025</strong>
-                        </span>
-                    </div>
-                </div>
-                <br/>
                 <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.5;">
                     <p>The Directors have pleasure in presenting the report and the audited financial statements for
                         the year ended
@@ -438,21 +574,8 @@
                     </p>
 
                 </div>
-                <div style="page-break-before: always;"></div>
+<!--                <div style="page-break-before: always;"></div>-->
 
-                <div style="margin-left:20px; margin-top:0px; color:#555;">
-
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>Report of Directors</strong>
-                        </span>
-                    </div>
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>for the Year Ended 31/12/2025</strong>
-                        </span>
-                    </div>
-                </div>
                 <div style="margin-left:20px; margin-right:50px; margin-top:25px; padding-bottom:55px; font-size:18px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong style="text-decoration:underline;">Statement of director’s responsibilities:</strong>
@@ -493,19 +616,7 @@
                     </div>
                 </div>
                 <div style="page-break-before: always;"></div>
-                <div style="margin-left:20px; margin-top:0px; color:#555;">
 
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>Independent Auditor Report</strong>
-                        </span>
-                    </div>
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>for the Year Ended 31/12/2025</strong>
-                        </span>
-                    </div>
-                </div>
                 <div style="margin-left:20px; margin-right:50px; margin-top:30px; font-size:18px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong style="text-decoration:underline;">Opinion:</strong>
@@ -607,19 +718,6 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; margin-top:20px; color:#555;">
-
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>Independent Auditor Report</strong>
-                        </span>
-                    </div>
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>for the Year Ended 31/12/2025</strong>
-                        </span>
-                    </div>
-                </div>
                 <div style="margin-left:20px; margin-right:50px; margin-top:30px; font-size:18px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong>Auditor’s Responsibilities for the Audit of the Financial Statements (continued)
@@ -687,18 +785,6 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; margin-top:0px; color:#555;">
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>Statement of the Financial Position</strong>
-                        </span>
-                    </div>
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>As at EndDate (in AED)</strong>
-                        </span>
-                    </div>
-                </div>
                 <table style="width:90%; font-size:18px; margin-left:20px; margin-right:50px; margin-top:25px; border: none; border-collapse: collapse; border: 1px solid white;">
                     <thead>
                         <tr>
@@ -1488,19 +1574,6 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; color:#555;">
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>Statement of Profit and Loss and Other Comprehensive Income</strong>
-                        </span>
-                    </div>
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>For the Year EndDate (in AED)</strong>
-                        </span>
-                    </div>
-
-                </div>
                 <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
                         <tr>
@@ -1753,18 +1826,6 @@
                 </div>
 
                 <div style="page-break-before: always;"></div>
-                <div style="margin-left:20px; color:#555;">
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>Statement of Changes in Equity</strong>
-                        </span>
-                    </div>
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>For the Year EndDate (in AED)</strong>
-                        </span>
-                    </div>
-                </div>
 
                 <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
@@ -1870,18 +1931,6 @@
                 </div>
 
                 <div style="page-break-before: always;"></div>
-                <div style="margin-left:20px; color:#555;">
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>Statement of Cash Flows</strong>
-                        </span>
-                    </div>
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>For the Year EndDate (in AED)</strong>
-                        </span>
-                    </div>
-                </div>
 
                 <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
@@ -2048,18 +2097,18 @@
                 </div>
 
                 <div style="page-break-before: always;"></div>
-                <div style="margin-left:20px; color:#555;">
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>Notes to the Financial Statements</strong>
-                        </span>
-                    </div>
-                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
-                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
-                            <strong>For the Year Ended 31/12/2025 (in AED)</strong>
-                        </span>
-                    </div>
-                </div>
+                <!--                <div style="margin-left:20px; color:#555;">-->
+                <!--                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">-->
+                <!--                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">-->
+                <!--                            <strong>Notes to the Financial Statements</strong>-->
+                <!--                        </span>-->
+                <!--                    </div>-->
+                <!--                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">-->
+                <!--                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">-->
+                <!--                            <strong>For the Year Ended 31/12/2025 (in AED)</strong>-->
+                <!--                        </span>-->
+                <!--                    </div>-->
+                <!--                </div>-->
 
                 <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
 
@@ -3016,15 +3065,6 @@
 
                 <div style="page-break-before: always;"></div>
 
-<!--                <div style="margin-left:20px; margin-top:0px;color:#555;">-->
-<!--                    <div style="font-size:18px;  border-bottom:1px solid #000;  display:inline-block;  padding-bottom:5px;  white-space:nowrap; margin-bottom:5px;">-->
-<!--                        <strong>Notes to the Financial Statements</strong>-->
-<!--                    </div>-->
-<!--                    <br/>-->
-<!--                    <div style="font-size:18px;  border-bottom:1px solid #000;   display:inline-block;   padding-bottom:5px;     white-space:nowrap;   margin-bottom:20px;">-->
-<!--                        <strong>For the Year Ended 31/12/2025 (in AED)</strong>-->
-<!--                    </div>-->
-<!--                </div>-->
 
                 <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify; margin-top:20px;">
 
