@@ -14,7 +14,7 @@
                     position: absolute;
                     top: 35px;
                     right: 15px;
-                    font-size: 18px;
+                    font-size: 16px;
                     }
                 </style>
 
@@ -94,12 +94,12 @@
                 <div id="company_header_info"
                      style="position: absolute; top: 35px; left: 15px; font-family: 'Times New Roman', Times, serif; color: #555;">
                     <!--  Main Header-->
-                    <div style="font-size:18px; font-weight:bold; white-space:nowrap;">
+                    <div style="font-size:16px; font-weight:bold; white-space:nowrap;">
                         <span style="text-decoration:underline;">
                             <t t-esc="docs.name"/>
                         </span>
                     </div>
-                    <div style="font-size:18px; font-weight:bold; white-space:nowrap; margin-top: 0;">
+                    <div style="font-size:16px; font-weight:bold; white-space:nowrap; margin-top: 0;">
                         <span style="text-decoration:underline;">
                             <t t-if="docs.free_zone"><t t-esc="docs.free_zone"/>,
                             </t>
@@ -108,12 +108,12 @@
                     </div>
                     <!--Table of Contents-->
                     <div id="toc_header_info" style="display:none; margin-top: 10px;">
-                        <div style="font-size:18px; white-space:nowrap;">
+                        <div style="font-size:16px; white-space:nowrap;">
                             <span style="text-decoration:underline;">
                                 <strong>Table of Contents</strong>
                             </span>
                         </div>
-                        <div style="font-size:18px; white-space:nowrap; margin-top: 0;">
+                        <div style="font-size:16px; white-space:nowrap; margin-top: 0;">
                             <span style="text-decoration:underline;">
                                 <strong>for the Year Ended 31/12/2025</strong>
                             </span>
@@ -121,12 +121,12 @@
                     </div>
                     <!--                    Entity Information-->
                     <div id="entity_header_info" style="display:none; margin-top: 10px;">
-                        <div style="font-size:18px; white-space:nowrap;">
+                        <div style="font-size:16px; white-space:nowrap;">
                             <span style="text-decoration:underline;">
                                 <strong>Entity Information</strong>
                             </span>
                         </div>
-                        <div style="font-size:18px; white-space:nowrap; margin-top: 0;">
+                        <div style="font-size:16px; white-space:nowrap; margin-top: 0;">
                             <span style="text-decoration:underline;">
                                 <strong>for the Year Ended 31/12/2025</strong>
                             </span>
@@ -134,12 +134,12 @@
                     </div>
                     <!--                    Report of Directors-->
                     <div id="directors_header_info" style="display:none; margin-top: 10px;">
-                        <div style="font-size:18px; white-space:nowrap;">
+                        <div style="font-size:16px; white-space:nowrap;">
                             <span style="text-decoration:underline;">
                                 <strong>Report of Directors</strong>
                             </span>
                         </div>
-                        <div style="font-size:18px; white-space:nowrap; margin-top: 0;">
+                        <div style="font-size:16px; white-space:nowrap; margin-top: 0;">
                             <span style="text-decoration:underline;">
                                 <strong>for the Year Ended 31/12/2025</strong>
                             </span>
@@ -147,12 +147,12 @@
                     </div>
                     <!--                    Independent Auditor Report-->
                     <div id="auditor_header_info" style="display:none; margin-top: 10px;">
-                        <div style="font-size:18px; white-space:nowrap;">
+                        <div style="font-size:16px; white-space:nowrap;">
                             <span style="text-decoration:underline;">
                                 <strong>Independent Auditor Report</strong>
                             </span>
                         </div>
-                        <div style="font-size:18px; white-space:nowrap; margin-top: 0;">
+                        <div style="font-size:16px; white-space:nowrap; margin-top: 0;">
                             <span style="text-decoration:underline;">
                                 <strong>for the Year Ended 31/12/2025</strong>
                             </span>
@@ -160,12 +160,12 @@
                     </div>
                     <!--                    Statement of the Financial Position-->
                     <div id="financial_position_header_info" style="display:none; margin-top: 10px;">
-                        <div style="font-size:18px; white-space:nowrap;">
+                        <div style="font-size:16px; white-space:nowrap;">
                             <span style="text-decoration:underline;">
                                 <strong>Statement of the Financial Position</strong>
                             </span>
                         </div>
-                        <div style="font-size:18px; white-space:nowrap; margin-top: 0;">
+                        <div style="font-size:16px; white-space:nowrap; margin-top: 0;">
                             <span style="text-decoration:underline;">
                                 <strong>As at EndDate (in AED)</strong>
                             </span>
@@ -173,12 +173,12 @@
                     </div>
                     <!-- Statement of Profit and Loss and Other Comprehensive Income-->
                     <div id="profit_loss_header_info" style="display:none; margin-top: 10px;">
-                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
+                        <div style="font-size:16px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
                             <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
                                 <strong>Statement of Profit and Loss and Other Comprehensive Income</strong>
                             </span>
                         </div>
-                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                        <div style="font-size:16px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
                             <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
                                 <strong>For the Year EndDate (in AED)</strong>
                             </span>
@@ -186,12 +186,12 @@
                     </div>
                     <!--Statement of Changes in Equity-->
                     <div id="equity_header_info" style="display:none; margin-top: 10px;">
-                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
+                        <div style="font-size:16px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
                             <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
                                 <strong>Statement of Changes in Equity</strong>
                             </span>
                         </div>
-                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                        <div style="font-size:16px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
                             <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
                                 <strong>For the Year EndDate (in AED)</strong>
                             </span>
@@ -199,12 +199,12 @@
                     </div>
                     <!--      Statement of Cash Flows              -->
                     <div id="cash_flow_header_info" style="display:none; margin-top: 10px;">
-                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
+                        <div style="font-size:16px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">
                             <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
                                 <strong>Statement of Cash Flows</strong>
                             </span>
                         </div>
-                        <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
+                        <div style="font-size:16px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">
                             <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">
                                 <strong>For the Year EndDate (in AED)</strong>
                             </span>
@@ -212,17 +212,17 @@
                     </div>
                     <!--Notes to the Financial-->
                     <div id="notes_header_info" style="display:none; margin-top: 10px;">
-                        <div style="font-size:18px; font-weight:bold; text-decoration:underline;">Notes to the Financial
+                        <div style="font-size:16px; font-weight:bold; text-decoration:underline;">Notes to the Financial
                             Statements
                         </div>
-                        <div style="font-size:18px; font-weight:bold; text-decoration:underline;">For the Year Ended
+                        <div style="font-size:16px; font-weight:bold; text-decoration:underline;">For the Year Ended
                             31/12/2025 (in AED)
                         </div>
                     </div>
                 </div>
             </div>
             <main class="page">
-                <div style="text-decoration:underline; font-family: 'Times New Roman', Times, serif; font-size: 18px !important; position: absolute; top: 0px; right: 15px;"
+                <div style="text-decoration:underline; font-family: 'Times New Roman', Times, serif; font-size: 16px !important; position: absolute; top: 0px; right: 15px;"
                      class="license-number-container"
                      t-if="docs.company_license_number">
                     License No:
@@ -235,7 +235,7 @@
                     body, .page, .page *, header, footer, .o_report_header *, .o_report_footer *, div, span, p, table,
                     tr, td, th, .header, .header * {
                     font-family: "Times New Roman", Times, serif !important;
-                    font-size: 18px !important;
+                    font-size: 16px !important;
                     line-height: 1.6;
                     }
 
@@ -275,19 +275,19 @@
 
                 <!--                <div style="padding-left: 20px;  color:#555;">-->
 
-                <!--                    <div style="font-size:18px; white-space:nowrap; font-family: 'Times New Roman', Times, serif;">-->
+                <!--                    <div style="font-size:16px; white-space:nowrap; font-family: 'Times New Roman', Times, serif;">-->
                 <!--                        <span style="text-decoration:underline; font-family: inherit;">-->
                 <!--                            <strong>Table of Contents</strong>-->
                 <!--                        </span>-->
                 <!--                    </div>-->
-                <!--                    <div style="font-size:18px; white-space:nowrap; margin-top: 0;">-->
+                <!--                    <div style="font-size:16px; white-space:nowrap; margin-top: 0;">-->
                 <!--                        <span style="text-decoration:underline; font-family: inherit;">-->
                 <!--                            <strong>for the Year Ended 31/12/2025</strong>-->
                 <!--                        </span>-->
                 <!--                    </div>-->
                 <!--                </div>-->
 
-                <table style="width:90%; font-size:18px; margin-left:16px; border-collapse: collapse; border: 1px solid white;">
+                <table style="width:90%; font-size:16px; margin-left:16px; border-collapse: collapse; border: 1px solid white;">
                     <thead>
                         <tr>
                             <th style="text-align:left; padding-bottom:8px; width:70%;"></th>
@@ -336,11 +336,11 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px;">
                     <t t-set="has_owners"
                        t-value="any(docs[shareholder_field] for i in range(1,11) for shareholder_field in ['shareholder_' + str(i)])"/>
 
-                    <div style="width:100%; font-size:18px;">
+                    <div style="width:100%; font-size:16px;">
 
                         <t t-if="has_owners">
                             <div style="width:100%; padding:6px 0;">
@@ -415,7 +415,7 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.5;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.5;">
                     <p>The Directors have pleasure in presenting the report and the audited financial statements for
                         the year ended
                         <br/>
@@ -450,7 +450,7 @@
 
                 </div>
 
-                <table style="width:90%; font-size:18px; margin:22px 50px 22px 16px; border-collapse: collapse; border: 1px solid white;">
+                <table style="width:90%; font-size:16px; margin:22px 50px 22px 16px; border-collapse: collapse; border: 1px solid white;">
                     <colgroup>
                         <col style="width: 50%;"/>
                         <col style="width: 20%;"/>
@@ -515,7 +515,7 @@
                     </tbody>
                 </table>
 
-                <div style="margin-left:20px; margin-right:50px; margin-top:15px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:15px; font-size:16px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong style="text-decoration:underline;">The future outlook:</strong>
                         <br/>
@@ -576,7 +576,7 @@
                 </div>
                 <!--                <div style="page-break-before: always;"></div>-->
 
-                <div style="margin-left:20px; margin-right:50px; margin-top:25px; padding-bottom:55px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:25px; padding-bottom:55px; font-size:16px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong style="text-decoration:underline;">Statement of director’s responsibilities:</strong>
                         <br/>
@@ -600,7 +600,7 @@
                     </p>
                 </div>
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.8; text-align:left;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.8; text-align:left;">
 
                     <div style="margin-bottom:100px; margin-top:20px;">
                         <div style="border-top: 2px dotted #000; width: 40%; margin-bottom: 10px;"></div>
@@ -617,7 +617,7 @@
                 </div>
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; margin-right:50px; margin-top:30px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:30px; font-size:16px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong style="text-decoration:underline;">Opinion:</strong>
                         <br/>
@@ -718,7 +718,7 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <div style="margin-left:20px; margin-right:50px; margin-top:30px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:30px; font-size:16px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong>Auditor’s Responsibilities for the Audit of the Financial Statements (continued)
                         </strong>
@@ -767,7 +767,7 @@
                 <br/>
                 <br/>
 
-                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:left;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:16px; line-height:1.8; text-align:left;">
 
                     <div style="margin-bottom:100px;">
                         <div style="border-top: 2px dotted #000; width: 70%; margin-bottom: 10px;"></div>
@@ -785,7 +785,7 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <table style="width:90%; font-size:18px; margin-left:20px; margin-right:50px; margin-top:25px; border: none; border-collapse: collapse; border: 1px solid white;">
+                <table style="width:90%; font-size:16px; margin-left:20px; margin-right:50px; margin-top:25px; border: none; border-collapse: collapse; border: 1px solid white;">
                     <thead>
                         <tr>
                             <th style="text-align:left; padding:8px 0; width:40%;"></th>
@@ -1549,7 +1549,7 @@
                     </tbody>
                 </table>
 
-                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:16px; line-height:1.8; text-align:justify;">
 
                     <p style="padding-bottom:60px;">
                         <strong>
@@ -1574,7 +1574,7 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
+                <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:16px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
                         <tr>
                             <th style="padding:10px 0; text-align:left; width:40%;"></th>
@@ -1809,7 +1809,7 @@
                     </tbody>
                 </table>
 
-                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:16px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong>The accompanying notes 1 to 16 form an integral part of these financial statements.
                         </strong>
@@ -1831,7 +1831,7 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <table style="border: 1px solid white; width:100%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
+                <table style="border: 1px solid white; width:100%; border-collapse:collapse; font-size:16px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
                         <tr>
                             <th style="padding:10px 0; text-align:left; width:55%;"></th>
@@ -1914,7 +1914,7 @@
                     </tbody>
                 </table>
 
-                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:16px; line-height:1.8; text-align:justify;">
 
                     <p>
                         <strong>The accompanying notes 1 to 16 form an integral part of these financial statements.
@@ -1937,7 +1937,7 @@
 
                 <div style="page-break-before: always;"></div>
 
-                <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:18px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
+                <table style="border: 1px solid white; width:90%; border-collapse:collapse; font-size:16px; margin-left:20px; margin-right:50px; margin-top:20px; box-sizing:border-box;">
                     <thead>
                         <tr>
                             <th style="padding:10px 0; text-align:left; width:50%;"></th>
@@ -2082,7 +2082,7 @@
                     </tbody>
                 </table>
 
-                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:16px; line-height:1.8; text-align:justify;">
                     <p>
                         <strong>The accompanying notes 1 to 16 form an integral part of these financial statements.
                         </strong>
@@ -2103,19 +2103,19 @@
 
                 <div style="page-break-before: always;"></div>
                 <!--                <div style="margin-left:20px; color:#555;">-->
-                <!--                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">-->
+                <!--                    <div style="font-size:16px; padding-bottom:0; white-space:nowrap; margin-bottom:0;">-->
                 <!--                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">-->
                 <!--                            <strong>Notes to the Financial Statements</strong>-->
                 <!--                        </span>-->
                 <!--                    </div>-->
-                <!--                    <div style="font-size:18px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">-->
+                <!--                    <div style="font-size:16px; padding-bottom:0; white-space:nowrap; margin-bottom:20px;">-->
                 <!--                        <span style="text-decoration:underline; padding-bottom:0; white-space:nowrap; font-family: inherit;">-->
                 <!--                            <strong>For the Year Ended 31/12/2025 (in AED)</strong>-->
                 <!--                        </span>-->
                 <!--                    </div>-->
                 <!--                </div>-->
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.6; text-align:justify;">
 
                     <p style="margin-bottom:10px;">
                         <strong>1 Legal status and business activities</strong>
@@ -2297,7 +2297,7 @@
                         </span>
                     </p>
                 </div>
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.6; text-align:justify;">
 
                     <p style="margin-bottom:20px;">
                         <strong>a.</strong>
@@ -2307,7 +2307,7 @@
                         recognized in the financial statements:
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Recognition of provisions and contingencies
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2324,7 +2324,7 @@
                         material adjustment to the carrying amounts of assets and liabilities within the next reporting
                         period.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Property, plant and equipment – useful lives, the pattern of economic benefits and
                         impairment
                     </div>
@@ -2335,7 +2335,7 @@
                         the future might affect the carrying amount of the respective item of tangible fixed assets,
                         with a corresponding effect on the depreciation charge and impairment.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Determining the lease term of contracts with renewal and termination options.
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2361,7 +2361,7 @@
                         incremental borrowing rate on commencement of the lease is used.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Impairment of trade receivables
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2377,7 +2377,7 @@
                         reasonable and supportable forward-looking information, which is based on assumptions for the
                         future movement of different economic drivers and how these drivers will affect each other.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Retirement benefit obligation
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2385,7 +2385,7 @@
                         results in a fair reflection of liability as at the reporting date.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Impairment of non-financial assets
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2396,8 +2396,8 @@
                 </div>
 
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.6; text-align:justify;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Expected credit losses and impairment of financial assets
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2407,7 +2407,7 @@
                         potentially affected sectors for any indicators of impairment and concluded that there is no
                         material impact.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Commitments and contingent liabilities
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2416,7 +2416,7 @@
                         suppliers, to identify any potential increases in commitments and contingent liabilities, and no
                         issues were noted.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Going concern
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2502,7 +2502,7 @@
                 </div>
 
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         production, and attributable overhead expenses. Net realizable value signifies the estimated
                         selling price in the ordinary course of business, less net estimated costs of completion, and
@@ -2587,8 +2587,8 @@
                             Financial assets
                         </span>
                         <br/>
-                        <span style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
-                            <!--                            <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">-->
+                        <span style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                            <!--                            <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">-->
                             Initial recognition and measurement
                             <!--                            </div>-->
                         </span>
@@ -2624,14 +2624,14 @@
                 </div>
 
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         Purchases or sales of financial assets that require delivery of assets within a time frame
                         established by regulation or convention in the marketplace (regular way trades) are recognized
                         on the trade date, i.e., the date that the Entity commits to purchase or sell the asset.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Subsequent measurement
                     </div>
                     <p>
@@ -2671,7 +2671,7 @@
                         shareholder's current account, and cash and cash equivalents.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Financial assets at fair value through OCI (debt instruments)
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2697,7 +2697,7 @@
                         The remaining fair value changes are recognized in OCI. Upon derecognition, the cumulative fair
                         value change recognized in OCI is recycled to profit or loss.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Financial assets designated at fair value through OCI (equity instruments)
                     </div>
                     <p>
@@ -2714,7 +2714,7 @@
                         designated at fair value through OCI are not subject to impairment assessment.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Financial assets at fair value through profit or loss
                     </div>
                     <p>
@@ -2734,14 +2734,14 @@
                 </div>
 
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         Financial assets at fair value through profit or loss are carried in the statement of financial
                         position at fair value with net changes in fair value recognized in the statement of profit or
                         loss.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Derecognition
                     </div>
                     <p>
@@ -2792,7 +2792,7 @@
                         <strong>b.</strong>
                         Financial liabilities
                         <br/>
-                        <span style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                        <span style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                             Initial recognition and measurement
                         </span>
                         <br/>
@@ -2801,7 +2801,7 @@
                         hedging instruments in an effective hedge, as appropriate.
                     </p>
                     <br/>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Subsequent measurement
                     </div>
                     <p>
@@ -2825,7 +2825,7 @@
                         satisfied. The Entity has not designated any financial liability as at fair value through profit
                         or loss.
                     </p>
-                    <div style="font-size:18px; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Loans and borrowings
                     </div>
                     <p>
@@ -2836,14 +2836,14 @@
                 </div>
 
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         Amortized cost is calculated by taking into account any discount or premium on acquisition and
                         fees or costs that are an integral part of the EIR. The EIR amortization is included as finance
                         costs in the statement of profit or loss. This category generally applies to interest-bearing
                         loans and borrowings.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Derecognition
                     </div>
                     <p style="margin-bottom:20px;">
@@ -2931,7 +2931,7 @@
                 </div>
 
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         <strong>b.</strong>
                         Non-financial assets
@@ -3020,7 +3020,7 @@
                 </div>
 
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         Foreign currency transactions are initially recorded, in the functional currency by applying to
                         the foreign currency amount the exchange rate between the functional currency and the foreign
@@ -3071,7 +3071,7 @@
                 <div style="page-break-before: always;"></div>
 
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify; margin-top:20px;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.6; text-align:justify; margin-top:20px;">
 
                     <table style="width:100%; border-collapse:collapse;border:1px solid #000">
                         <thead>
@@ -3303,7 +3303,7 @@
                 </div>
 
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px;">
                     <table style="width:100%; border-collapse:collapse; border:1px solid #000; table-layout:fixed;border:1px solid #000">
                         <colgroup>
                             <col style="width:40%;"/>
@@ -3399,7 +3399,7 @@
                 <br/>
                 <br/>
                 <br/>
-                <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px; line-height:1.6; text-align:justify;">
                     <p style="margin-bottom:15px;">
                         <strong>13. Risk management</strong>
                         <br/>
@@ -3410,7 +3410,7 @@
                         It maintains timely reports about its risks management function and monitors risks and policies
                         implemented to mitigate risk exposures.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Market Risk
                     </div>
                     <p>
@@ -3423,7 +3423,7 @@
                         liabilities are denominated in UAE Dirham. There are no assets and liabilities which expose it
                         to interest rate risk and other price risks.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Credit Risk
                     </div>
                     <p>
@@ -3436,7 +3436,7 @@
                         normal course of its business.
                         Entity has sufficient funds to settle its financial liabilities.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
+                    <div style="font-size:16px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Liquidity Risk
                     </div>
                     <p>
@@ -3450,7 +3450,7 @@
                         The item consists of the following:
                     </p>
 
-                    <table style="width:100%; max-width:calc(100% - 100px); border-collapse:collapse; font-size:18px; margin-top:15px; margin-bottom:20px; box-sizing:border-box;border:1px solid white">
+                    <table style="width:100%; max-width:calc(100% - 100px); border-collapse:collapse; font-size:16px; margin-top:15px; margin-bottom:20px; box-sizing:border-box;border:1px solid white">
                         <thead>
                             <tr style="border:1px solid white">
                                 <th style=" padding:8px 0; text-align:left; width:40%;"></th>
@@ -3491,7 +3491,7 @@
                 </div>
 
 
-                <div style="margin-left:20px; margin-right:50px; font-size:18px;">
+                <div style="margin-left:20px; margin-right:50px; font-size:16px;">
                     <table style="width:100%; border-collapse:collapse; border:1px solid white; table-layout:fixed;">
                         <colgroup>
                             <col style="width:35%;"/>
@@ -3554,7 +3554,7 @@
                 <br/>
                 <br/>
                 <br/>
-                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:18px; line-height:1.8; text-align:left;">
+                <div style="margin-left:20px; margin-right:50px; margin-top:40px; font-size:16px; line-height:1.8; text-align:left;">
 
                     <div style="margin-bottom:100px;">
                         <div style="border-top: 2px dotted #000; width: 40%; margin-bottom: 10px;"></div>
@@ -3574,7 +3574,7 @@
             </main>
             <div class="footer">
                 <div id="custom_footer_content"
-                     style="border-top: 1px solid #000; color: #555; margin-top: 10px; padding-top: 5px; text-align: center; font-family: 'Times New Roman', serif; font-size: 18px;">
+                     style="border-top: 1px solid #000; color: #555; margin-top: 10px; padding-top: 5px; text-align: center; font-family: 'Times New Roman', serif; font-size: 16px;">
                 </div>
                 <script>
                     (function() {
