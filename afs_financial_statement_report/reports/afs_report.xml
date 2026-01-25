@@ -2071,12 +2071,12 @@
                             <td style="padding:2px 0; font-weight:bold;padding-left:5px;">
                                 Cash and cash equivalents, end of the period
                             </td>
-                            <td style="text-align:right; width:10%; padding:4px 0;">
-                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            <td style="text-align:right; width:10%; padding:4px 0; vertical-align: bottom;">
+                                <span style="border-bottom: 6px double #000; display: inline-block; width: 60%; line-height: 0.7; height: 1px;"></span>
                             </td>
 
-                            <td style="text-align:right; width:10%; padding:4px 0;">
-                                <span style="border-bottom:2px solid #000; display:inline-block; width:60%; height:1px;"></span>
+                            <td style="text-align:right; width:10%; padding:4px 0; vertical-align: bottom;">
+                                <span style="border-bottom: 6px double #000; display: inline-block; width: 60%; line-height: 0.7; height: 1px;"></span>
                             </td>
                         </tr>
                     </tbody>
@@ -2207,68 +2207,68 @@
 
 
                     <table style="border: 1px solid white; width:100%; border-collapse:collapse; font-size:13px; margin-top:15px; margin-bottom:30px;">
-                        <thead>
+                        <thead >
                             <tr>
-                                <th style="border-bottom:1px solid white; padding:8px; text-align:left; width:70%;">
+                                <th style="border-bottom:1px solid white; padding:8px; text-align:left; ">
                                 </th>
-                                <th style="border-bottom:1px solid white; padding:8px; text-align:center; width:30%;border:1px solid white;">
+                                <th style="border-bottom:1px solid white; padding:4px 8px; text-align:center; width:30%;border:1px solid white;">
                                     <strong>Effective for periods beginning on or after</strong>
                                 </th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody >
                             <tr>
-                                <td style="padding:8px; border-bottom:1px solid white;">Amendments to IAS 21 'The
+                                <td style="padding:0px 4px; border-bottom:1px solid white;">Amendments to IAS 21 'The
                                     Effects
                                     of Changes in Foreign Exchange Rates Lack of Exchangeability'
                                 </td>
-                                <td style="padding:8px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
+                                <td style="padding:0px 4px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
                                     January 01,
                                     2025
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding:8px; border-bottom:1px solid white;">IFRS S1 'General requirements
+                                <td style="padding:0px 4px; border-bottom:1px solid white;">IFRS S1 'General requirements
                                     for
                                     Disclosure of Sustainability-related Financial Information'
                                 </td>
-                                <td style="padding:8px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
+                                <td style="padding:0px 4px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
                                     July 01,
                                     2025
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding:8px; border-bottom:1px solid white;">IFRS S2 'Climate-Related
+                                <td style="padding:0px 4px; border-bottom:1px solid white;">IFRS S2 'Climate-Related
                                     Disclosures'
                                 </td>
-                                <td style="padding:8px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
+                                <td style="padding:0px 4px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
                                     July 01,
                                     2025
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding:8px; border-bottom:1px solid white;">Amendments to IFRS 7 Financial
+                                <td style="padding:0px 4px; border-bottom:1px solid white;">Amendments to IFRS 7 Financial
                                     Instruments: Disclosures Amendments regarding the classification and measurement of
                                     financial instruments
                                 </td>
-                                <td style="padding:8px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
+                                <td style="padding:0px 4px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
                                     January 01,
                                     2026
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding:8px; border-bottom:1px solid white;">Amendments to IFRS 9 Financial
+                                <td style="padding:0px 4px; border-bottom:1px solid white;">Amendments to IFRS 9 Financial
                                     Instruments Amendments regarding the classification and measurement of financial
                                     instruments
                                 </td>
-                                <td style="padding:8px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
+                                <td style="padding:0px 4px; text-align:center; border-bottom:1px solid white;border:1px solid white;">
                                     January 01,
                                     2026
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding:8px;">IFRS 17 Insurance Contracts</td>
-                                <td style="padding:8px; text-align:center;border:1px solid white;">January 01, 2026</td>
+                                <td style="padding:0px 4px;">IFRS 17 Insurance Contracts</td>
+                                <td style="padding:0px 4px; text-align:center;border:1px solid white;">January 01, 2026</td>
                             </tr>
                         </tbody>
                     </table>
@@ -2307,7 +2307,7 @@
                         recognized in the financial statements:
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Recognition of provisions and contingencies
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2324,7 +2324,7 @@
                         material adjustment to the carrying amounts of assets and liabilities within the next reporting
                         period.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Property, plant and equipment – useful lives, the pattern of economic benefits and
                         impairment
                     </div>
@@ -2335,7 +2335,7 @@
                         the future might affect the carrying amount of the respective item of tangible fixed assets,
                         with a corresponding effect on the depreciation charge and impairment.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Determining the lease term of contracts with renewal and termination options.
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2361,7 +2361,7 @@
                         incremental borrowing rate on commencement of the lease is used.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Impairment of trade receivables
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2377,7 +2377,7 @@
                         reasonable and supportable forward-looking information, which is based on assumptions for the
                         future movement of different economic drivers and how these drivers will affect each other.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Retirement benefit obligation
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2385,7 +2385,7 @@
                         results in a fair reflection of liability as at the reporting date.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Impairment of non-financial assets
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2397,7 +2397,7 @@
 
 
                 <div style="margin-left:20px; margin-right:50px; font-size:18px; line-height:1.6; text-align:justify;">
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Expected credit losses and impairment of financial assets
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2407,7 +2407,7 @@
                         potentially affected sectors for any indicators of impairment and concluded that there is no
                         material impact.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Commitments and contingent liabilities
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2416,7 +2416,7 @@
                         suppliers, to identify any potential increases in commitments and contingent liabilities, and no
                         issues were noted.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Going concern
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2587,7 +2587,7 @@
                             Financial assets
                         </span>
                         <br/>
-                        <span style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                        <span style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                             <!--                            <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap;">-->
                             Initial recognition and measurement
                             <!--                            </div>-->
@@ -2631,7 +2631,7 @@
                         on the trade date, i.e., the date that the Entity commits to purchase or sell the asset.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Subsequent measurement
                     </div>
                     <p>
@@ -2671,7 +2671,7 @@
                         shareholder's current account, and cash and cash equivalents.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Financial assets at fair value through OCI (debt instruments)
                     </div>
                     <p style="margin-bottom:15px;">
@@ -2697,7 +2697,7 @@
                         The remaining fair value changes are recognized in OCI. Upon derecognition, the cumulative fair
                         value change recognized in OCI is recycled to profit or loss.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Financial assets designated at fair value through OCI (equity instruments)
                     </div>
                     <p>
@@ -2714,7 +2714,7 @@
                         designated at fair value through OCI are not subject to impairment assessment.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Financial assets at fair value through profit or loss
                     </div>
                     <p>
@@ -2741,7 +2741,7 @@
                         loss.
                     </p>
 
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Derecognition
                     </div>
                     <p>
@@ -2792,7 +2792,7 @@
                         <strong>b.</strong>
                         Financial liabilities
                         <br/>
-                        <span style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                        <span style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                             Initial recognition and measurement
                         </span>
                         <br/>
@@ -2801,7 +2801,7 @@
                         hedging instruments in an effective hedge, as appropriate.
                     </p>
                     <br/>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Subsequent measurement
                     </div>
                     <p>
@@ -2825,7 +2825,7 @@
                         satisfied. The Entity has not designated any financial liability as at fair value through profit
                         or loss.
                     </p>
-                    <div style="font-size:18px; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px; border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Loans and borrowings
                     </div>
                     <p>
@@ -2843,7 +2843,7 @@
                         costs in the statement of profit or loss. This category generally applies to interest-bearing
                         loans and borrowings.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Derecognition
                     </div>
                     <p style="margin-bottom:20px;">
@@ -3410,7 +3410,7 @@
                         It maintains timely reports about its risks management function and monitors risks and policies
                         implemented to mitigate risk exposures.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Market Risk
                     </div>
                     <p>
@@ -3423,7 +3423,7 @@
                         liabilities are denominated in UAE Dirham. There are no assets and liabilities which expose it
                         to interest rate risk and other price risks.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Credit Risk
                     </div>
                     <p>
@@ -3436,7 +3436,7 @@
                         normal course of its business.
                         Entity has sufficient funds to settle its financial liabilities.
                     </p>
-                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 0.8;">
+                    <div style="font-size:18px;   border-bottom:1px solid #000; display:inline-block;  white-space:nowrap; line-height: 1;">
                         Liquidity Risk
                     </div>
                     <p>
