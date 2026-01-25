@@ -233,7 +233,7 @@
                     /* Apply Times New Roman to entire report */
                     /* Apply Times New Roman to entire report */
                     body, .page, .page *, header, footer, .o_report_header *, .o_report_footer *, div, span, p, table,
-                    tr, td, th {
+                    tr, td, th, .header, .header * {
                     font-family: "Times New Roman", Times, serif !important;
                     font-size: 18px !important;
                     line-height: 1.6;

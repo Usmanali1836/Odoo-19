@@ -20,7 +20,7 @@
             'afs_financial_statement_report/static/src/css/font.css',
         ],
         'web.report_assets_common': [
-            'afs_financial_statement_report/static/src/css/report.css',
+                    'afs_financial_statement_report/static/src/css/font.css',
         ],
     },
 
